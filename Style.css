@@ -1,0 +1,29 @@
+   <style>
+      body{ background-color:rgb(255, 178, 225);
+          color:rgb(117, 83, 117);
+      }
+      
+      #Waffles{
+          font-family:cursive;
+          color:rgb(89, 54, 89);
+          
+          
+      }
+      #title{
+          font-family:cursive;
+          color:rgb(89, 54, 89);
+          background-color:rgb(255, 209, 255);
+          text-align:center;
+      }
+      #Muffins{
+          font-family:cursive;
+          color:rgb(89, 54, 89);
+      }
+       #Pancakes{
+            font-family:cursive;
+          color:rgb(89, 54, 89);
+       }   
+      
+      
+
+        </style>
