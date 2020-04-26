@@ -1,0 +1,351 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ed48931132.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <title>Nauci engleski</title>
+  <style>
+  body{background-color:rgb(0, 0, 0);}
+  body{
+      color:rgb(255, 255, 255);
+      
+}
+
+  
+    .Nauči{
+      margin-bottom: -35px;
+    }
+    .Nauči{
+      font-style: oblique
+      
+    }
+    .Nauči{
+      font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+    }
+    .Nauči .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.txt{
+      margin-right:90px;
+font-style: oblique;
+    margin-left:90px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+.dropbtn {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left:50px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2b2b2b;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-left:50px;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9e9d9d;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #9e9d9d;
+  z-index: 1;
+  margin-left:50px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-left:50px;
+}
+
+.dropdown a:hover {background-color: rgb(216, 209, 209);}
+
+.show {display: block;}
+.hr1{
+    margin-left:30px;
+  margin-right:30px;
+  border: 1px solid rgb(255, 255, 255);
+}
+  </style>
+  </head>
+  <body>
+      <center><h1 class="Nauči">NAUČI ENGLESKI</h1></center>
+      
+      
+   
+    <hr>
+    
+    <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Home.html">Home</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Po%C4%8Detnik.html#">Početnik</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Napredniji.html">Napredniji</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Gramatika.html">Gramatika</a>
+            <a href="https://www.e-rjecnik.net/">Rječnik</a>
+            <a href="https://engleski-jezik.com/kvizovi-i-testovi">Kvizovi</a>
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+           
+          </div>
+       
+                
+<hr class="hr1">
+<hr>
+<div class="txt">
+<h4>Prije nego počnete s učenjem, evo par savjeta za bolje usvajanje bilo kojeg stranog jezika:</h4>
+<hr>
+<h5>Nemojte samo čitati riječi, prisjećajte ih se</h5>
+<p>Stvorite asocijacije u umu koje će vam pomoći da se prisjetite određenih riječi, povežite nepoznate riječi s nečim što vam je već poznato. To će možda zahtijevati više vremena prilikom samog učenja, ali će biti višestruko
+ korisno kasnije jer će se riječi na taj način pohraniti u dugotrajno pamćenje i tako vam duže ostati na raspolaganju.</p>
+ <hr>
+ <h5>Naučite apstraktno razmišljati</h5>
+ 
+ <p>Nemojte paničariti čim čujete nešto što ne razumijete i nemojte odmah tražiti doslovni prijevod. Potražite radije na internetu parafrazu određene riječi, upotrebu u nekom drugačijem kontekstu. 
+    Na taj ćete način daleko više proširiti spektar riječi na stranom jeziku nego samo uz šturi prijevod.</p>
+    <hr>
+<h5>Učite fraze</h5>
+<p>Svaki jezik ima određene sintagme koje ga odlikuju i čine posebnim. Nemojte se preznojavati konstantnim učenjem stranih riječi bez poveznica među njima. Samo riječi ne čine rečenice, tu nam trebaju upravo fraze. Potrudite se zapamtiti cjelovite sintagme, aktivno ih upotrebljavajte pa ćete na taj način lakše zapamtiti i riječi od kojih se one sastoje. 
+To će vas znatno približiti tečnom govoru na stranom jeziku, a upravo je to i jedan od najvažnijih ciljeva.</p>
+<hr>
+<h5>Vizualizirajte</h5>
+<p>Vizualizacija znači stvaranje mentalnih slika koje nam olakšavaju da nešto zapamtimo. Naš mozak obrađuje podatke upravo putem boja, slika, oblika i slično. Svaki pojedinac ima različit način stvaranja slika, neki ih povezuju uz nešto što im se dogodilo, neki sa situacijama u kojima su bili kad su prvi put čuli određenu riječ, a neki jednostavno pamte izgled značenja riječi. 
+Nema točnog i krivog načina, odaberite onaj koji vama odgovara.</p>
+<hr>
+<h5>Ne žurite</h5>
+<p>Uzmite si vrijeme potrebno za obradu i pohranu podataka. To ne znači uzeti vrijeme samo za učenje novih riječi nego i za ponavljanje. Osim što je ponavljanje majka znanja, to je isto tako nešto što čini da vaš mozak shvati da su te informacije važne i da im treba dati određenu pažnju. 
+Ponavljajte u redovitim intervalima sve dok se bez poteškoća ne počnete prisjećati novih riječi u aktivnoj komunikaciji.</p>
+<hr>
+<hr>
+<div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Odaberi lekcije</button>
+        <div id="myDropdown" class="dropdown-content">
+          
+          <a href="file:///C:/Users/HP/Desktop/MATURSKI/Lekcije%201-25.html">Lekcije 1-25</a>
+          <a href="file:///C:/Users/HP/Desktop/MATURSKI/Lekcije%2026-45.html">Lekcije 26-45</a>
+        
+        </div>
+      </div>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr class="hr1">
+
+
+<script>
+ var textWrapper = document.querySelector('.Nauči');
+ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+ 
+ anime.timeline({loop: true})
+   .add({
+     targets: '.Nauči .letter',
+     translateX: [40,0],
+     translateZ: 0,
+     opacity: [0,1],
+     easing: "easeOutExpo",
+     duration: 1200,
+     delay: (el, i) => 500 + 30 * i
+   }).add({
+     targets: '.Nauči .letter',
+     translateX: [0,-30],
+     opacity: [1,0],
+     easing: "easeInExpo",
+     duration: 1100,
+     delay: (el, i) => 100 + 30 * i
+   });
+
+   function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+          </script>      
+  </body>
+</html>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+  
+</html>

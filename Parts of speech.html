@@ -1,0 +1,1280 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ed48931132.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <title>Nauci engleski</title>
+  <style>
+  body{background-color:rgb(0, 0, 0);}
+  body{
+      color:rgb(255, 255, 255);
+      
+}
+
+  
+    .Nauči{
+      margin-bottom: -35px;
+    }
+    .Nauči{
+      font-style: oblique
+      
+    }
+    .Nauči{
+      font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+    }
+    .Nauči .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.txt{
+      margin-right:90px;
+font-style: oblique;
+    margin-left:90px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #727070;
+
+}
+
+.txt{
+      margin-right:90px;
+font-style: oblique;
+    margin-left:90px;
+}
+.Podnaslov{
+ font-style: oblique;
+
+    text-decoration:underline;
+
+}
+.hr1{
+    margin-left:30px;
+  margin-right:30px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.Imenice{
+    font-style: oblique;
+    margin-left:90px;
+    margin-right:90px;
+    
+}
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgb(59, 58, 58); 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 15px; 
+}
+
+#myBtn:hover {
+  background-color: rgb(184, 174, 174); 
+}
+
+
+  </style>
+  </head>
+  <body>
+      <center><h1 class="Nauči">NAUČI ENGLESKI</h1></center>
+      
+      
+   
+    <hr>
+    
+    <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Home.html">Home</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Po%C4%8Detnik.html#">Početnik</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Napredniji.html">Napredniji</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Gramatika.html">Gramatika</a>
+            <a href="https://www.e-rjecnik.net/">Rječnik</a>
+            <a href="https://engleski-jezik.com/kvizovi-i-testovi">Kvizovi</a>
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+           
+          </div>
+       
+                
+          <hr>
+          <h3 class="Imenice">Parts of speech - vrste riječi</h3>
+          <hr class="hr1">
+          <hr>
+          <div class="txt">
+
+              <p>U engleskom jeziku postoji 9 vrsta riječi:</p>
+              <b><a href="#nouns"> 1. Nouns</a> <br></b>
+              <b><a href="#Verbs"> 2. Verbs</a> <br></b>
+              <b><a href="#adjectives"> 3. Adjectives</a> <br></b>
+               <b><a href="#prepositions"> 4. Prepositions</a> <br></b>
+               <b><a href="#adverbs"> 5. Adverbs</a> <br></b>
+               <b><a href="#pronouns"> 6. Pronouns</a> <br></b>
+               <b><a href="#articles"> 7. Articles</a> <br></b>
+               <b><a href="#conjuctions"> 8. Conjuctions</a> <br></b>
+               <b><a href="#"> 9. Interjections</a> <br></b>
+    </p>
+   <hr>
+   <hr>
+    <hr class="hr1" >
+    <hr>
+    <hr>
+    <a name="nouns"></a>
+    <h5 class="Podnaslov">NOUNS - IMENICE</h5> 
+    <hr >
+    <hr>
+    <hr>
+    <center><h5 class="h">Vrste imenica</h5></center>
+
+<hr>
+<hr>
+<hr>
+<p>
+  <b>Vlastite imenice </b>(proper nouns) su imena ljudi, država, mesta, npr. Martin, France, London itd.<br>
+  <b>  Opće imenice</b> (common nouns) označavaju nazive bića, pojava i predmeta sa zajedničkim osobinama, npr. aunt (tetka), worker (radnik), plane (avion), horse (konj), story (priča), chair (stolica)…<br>
+  <b>  Zbirne imenice </b>(collective nouns) koje označavaju više bića ili predmeta kao jednu celinu, npr. flock (jato), colony (kolonija), team (tim), swarm (roj).<br>
+  <b>  Apstraktne imenice</b> (abstract nouns) označavaju nešto što je neopipljivo. To su npr. love (ljubav), sadness (tuga), happiness (radost), death (smrt), itd.<br>
+   <b> Glagolske imenice</b> (verbal nouns) predstavljaju nazive radnji i stanja. Imaju formu glagola (nastavak za sadašnji particip -ing) , ali imaju funkcuju imenice. Primeri: running (trčanje), sleeping (spavanje), itd.<br>
+    Osim gore navedenih, takođe postoje i <b>brojive</b> i <b>nebrojive</b> imenice.</p>
+<p>Obilježje roda u hrvatskom jeziku ima poseban značaj, dok u engleskom to nije slučaj. U srpskom jeziku imenice koje označavaju nežive entitete (stolica, orman, beton…) imaju i svoj rod, dok se u engleskom po pravilu zamenjuju sa it ili which.<br>
+
+    Zamjenice he i she upotrebljavaju se u situacijama kada se one odnose na ljude, a it kad se govori o nečem drugom (životinjama ili stvarima). Neke neanimatne imenice mogu biti zamijenjene sa he/she ukoliko su personalizirane. U takvoj upotrebi sun, war su muškog roda, dok su moon, nature, ship, kao i imena zemalja ženskog roda.<br>
+    
+    Kada je reč o životinjama (najčešće kućnim ljubimcima) upotrebljavamo he, she, who. Neke od imenica koje se odnose na životinje mogu imati različite oblike za mužjake i ženke  (bull/cow, dog/bitch, tiger/tigress). Imenice koje sadrže sufiks -ess govore da je riječ o osobi ženskog pola (waiter/waitress, host/hostess, actor/actress).<br>
+    
+    Neke imenice su i muškog i ženskog roda (cook, friend, guest, journalist, neighbour, person, pupil, relative, scientist, student, teacher, tourist, writer). Na muški ili ženski rod mogu da ukazuju riječi male/female, he/she, boy/girl, man/woman, itd. (male cousin, man servant, woman doctor, itd.). Na zbirne imenice (committee, team, army, family) mogu se odnositi ili it/which, 
+    ako se misli na grupu kao cjelinu, ili sa they/who ako se misli na jedinke grupe.</p>
+
+    <center><h5 class="h">Množina (Plural)</h5></center>
+    <hr>
+    <hr>
+    <hr>
+  <p>Množina imenica se gradi dodavanjem nastavka –s na jedninu imenice. Taj nastavak se izgovara kao / z / iza zvučnih suglasnika i samoglasnika, a iza bezvučnih suglasnika / s /:<br>
+<hr>
+      Primjeri za imenice sa / z / izgovorom:</p>
+<p>chair (stolica) – <b>chairs</b> (stolice)<br>
+    window (prozor) – <b>windows</b> (prozori)<br>
+    table (sto) – <b>tables </b>(stolovi)<br>
+    <hr>
+    Primeri za imenice sa / s / izgovorom:<br>
+    <hr>
+    street (ulica) – <b>streets</b> (ulice)<br>
+    shop (prodavnica) – <b>shops </b>(prodavnice)</p>
+    <hr>
+<p>Ako se imenica završava na –y a prethodi joj suglasnik, –y prelazi u –i i dodaje se –es:<br>
+<hr>
+    baby – <b>babies</b> (beba – bebe)<br>
+    country – <b>countries</b> (zemlja – zemlje)<br>
+    <hr>
+    <hr>
+    Ako se ispred –y nalazi samoglasnik, množina se gradi pravilno, tj. dodavanjem nastavka –s:<br>
+    <hr>
+    toy – <b>toys</b> (igračka – igračke)<br>
+    way –<b> ways</b> (put – putevi)</p>
+
+<p>Ako se imenica završava na –s, –ss, –ch, –sh, -x dodaje se nastavak –es. Kod takvih imenica nastavak –es izgovara se / iz /:<br>
+<hr>
+    bus –<b> buses</b> (autobus – autobusi)<br>
+    wish –<b> wishes</b> (želja – želje)<br>
+    box –<b> boxes</b> (kutija – kutije)</p>
+
+<p><b>Neke imenice imaju nepravilnu množinu:</b><br>
+
+    man (muškarac) – <b>men</b> (muškarci)<br>
+    woman (žena) – <b>women</b> (žene)<br>
+    child (dete) – <b>children</b> (deca)<br>
+    foot (stopalo) –<b> feet </b>(stopala)<br>
+    tooth (zub) – <b>teeth</b>(zubi)<br>
+    mouse (miš) – <b>mice</b> (miševi)</p>
+<hr>
+<hr>
+<hr>
+<center><h5 class="h">Brojive i nebrojive imenice (Countable and Uncountable Nouns)</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Brojive imenice (countable nouns) su imenice koje imaju množinu – mogu se brojati:<br>
+
+    book (knjiga) –<b> books</b> (knjige)<br>
+    child (dete) – <b>children</b> (deca)<br>
+    <hr>
+    Nebrojive imenice (uncountable nouns) nemaju množinu – ne mogu se brojati:<br>
+    
+    sugar, milk, love, money</p>
+
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Some and Any</h5></center>
+        <hr>
+        <hr>
+        <hr>
+<p>Količina se može iskazati neodređenim prilozima some i any.<br>
+
+    Some (nekoliko) se koristi u potvrdnim rečenicama. Može stajati isred brojivih imenica u množini i ispred nebrojivih imenica:<br>
+    <hr>
+  <b>  She left some oranges on the table.</b> (Ona je ostavila nekoliko narandži na stolu.)<br>
+   <b> We need to buy some butter for the cake. </b>(Treba da kupimo malo maslaca za tortu.)</p>
+   <hr>
+<p>Jedini slučaj kada se some upotrebljava u pitanjima je kada nekoga nudimo nečim:<br>
+<hr>
+   <b> Would you like some coffee?</b> (Da li bi htela kavu?)<br>
+   <b> How about some oranges?</b> (Hoćeš li naranče?)</p>
+   <hr>
+<p>Any (ijedan, nijedan) se koristi u upitnim i niječnim rečenicama ispred brojivih imenica u množini i ispred nebrojivih imenica:<br>
+<hr>
+  <b>  Are there any eggs in the fridge?</b> (Ima li jaja u frižideru?)<br>
+   <b> There isn’t any coffee left in the coffee box.</b> (Nema nimalo kave u kutiji za kavu.)</p>
+   <hr>
+<p>U potvrdnim rečenicama any znači ma koji, bilo koji, svaki:<br>
+<hr>
+   <b> Any day suits me.</b> (Odgovara mi bilo koji dan.)<br>
+  <b>  Give me any book you want.</b> (Daj mi ma koju knjigu hoćeš.)<br>
+   <b> Any man can understand that.</b> (Svaki čovek može to da razume.)</p>
+   <hr>
+   <hr>
+   <hr>
+   <center><h5 class="h">Much and Many</h5></center>
+       <hr>
+       <hr>
+       <hr>
+<p>Much i many (mnogo) su prilozi za količinu koji imaju isto značenje ali različitu upotrebu.<br>
+
+    Much se koristi uz nebrojive imenice dok se many koristi uz brojive imenice. Pored ovih priloga često se koristi i prilog a lot of koji može stajati i uz brojive i uz nebrojive imenice:<br>
+    <hr>
+    <b>There wasn’t much snow last winter.</b> (Nije bilo mnogo snega prošle zime.)<br>
+    <b>I saw many famous people in Los Angeles.</b> (Videla sam mnogo slavnih ljudi u Los Anđelesu.)<br>
+    <b>She drank a lot of alcohol at the party.</b> (Ona je popila puno alkohola na zabavi.)<br>
+    <b>Michael bought a lot of good books at the book fair.</b> (Majkl je kupio mnogo dobrih knjiga na sajmu knjiga.)</p>
+
+    <hr>
+    <hr>
+     <hr class="hr1">
+    <hr>
+<hr>
+<hr>
+     <a name="verbs"></a>
+     <h5 class="Podnaslov">VERBS - GLAGOLI</h5> 
+     <hr >
+     <hr>
+     <hr>
+     <center><h5 class="h">Morfološki oblici</h5></center>
+     <hr>
+     <hr>
+     <hr>
+<p>Glagoli u engleskom jeziku mogu se formirati na 4 načina, tj. postoje 4 morfološka oblika, a to su: the present (sadašnje vreme), the past (prošlo vreme), the present participle (sadašnji particip) i the past participle (prošli particip).<br>
+
+    The present (sadašnje vreme) je osnovni oblik glagola koji tražimo u rečniku: be, close, love, go…<br>
+    
+    The past je prošli oblik glagola koji objašnjava da se radnja dogodila u prošlosti, to je prost glagolski oblik koji stoji sa imenicom ili zamenicom i tako označava predmet iskaza: I was, I closed, I loved, I went…</p>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Participles and verbs of sensation (participi i glagoli percepcije)</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Participi (sadašnji i prošli) su glagolski pridevi koji se najčešće koriste za građenje trajnih i svršenih vremena. Ali oni se mogu koristiti i u raznim konstrukcijama kao i za skraćenje rečenica.<br>
+
+    Participi se koriste da skrate rečenicu kada označavaju radnju istovremenu sa dešavanjem radnje glavnog glagola.<br>
+    <hr>
+   <b> She was sitting in an armchair reading a book.</b> (Sedela je u fotelji i čitala knjigu.)<br>
+   <b> He is a man praized by all his friends.</b> (On je čovek hvaljen od strane svih svojih prijatelja.)</p>
+
+<p>Nekada radnja participa može i da prethodi glavnoj radnji:<br>
+<hr>
+    <b>Taking a key out of his pocket, he opened the door. </b>(Izvadivši ključ iz džepa, on je otvorio vrata.)<br>
+   <b> It is a novel written a few years ago.</b> (To je roman napisan pre nekoliko godina.)</p>
+<p>Sadašnji particip može da objašnjava razlog izvršenja neke radnje.<br>
+<hr>
+    <b>Feeling tired, I went to bed early.</b> (Pošto sam bila umorna, otišla sam u krevet ranije.)<br>
+    <hr>
+    Također se koristi da označi trajne osobine stvari ili ljudi.<br>
+    <hr>
+   <b> The road joining the two villages is very narrow.</b> (Put koji spaja dva sela je veoma uzak.)</p>
+<p></p>Prošli particip se koristi u obrascu <br>
+
+<b>subjekat + glagol + imenica/ zamenica + prošli particip </b> sa velikim brojem glagola kao što su feel, find, get, have, hear, like, make, prefer, see, want …<br>
+<hr>
+<b>I found the house deserted.</b> (Pronašao sam kuću napuštenu.)
+<b>John heard his name called.</b> (John je čuo da su prozvali njegovo ime.)
+<p>Upotreba glagola “have” i “get” u ovakvim konstrukcijama se zove causative have i znači da radnju nije izvršio subjekat već neko drugi za njega:<br>
+<hr>
+   <b> How often do you have your car serviced?</b> (Koliko često ti rade servis na autu?)<br>
+   <b> I have just had my hair cut.</b> (Upravo sam išla da mi skrate kosu.)</p>
+<p>Ponekad konstrukcija have something done ima značenje iskusiti, proći kroz nešto, na primer:<br>
+<hr>
+    <b>My brother had his nose broken in a fight.</b> (Mom bratu su slomili nos u tuči.)<hr>
+    <b>He had his car stolen last night.</b> (Sinoć mu je neko ukrao auto.)</p>
+<p>Sadašnji particip se može koristiti u obrascu <br>
+
+    <b>subjekat + glagol + imenica / zamenica + sadašnji particip </b>sa velikim brojem glagola koji označavaju čulne senzacije (verbs of sensations), npr. hear, look at, notice, observe, perceive, see, smell, watch, a i sa glagolima like, find, get, have, keep, make, want, wish…</p>
+<p> <b>I thought I heard the telephone ringing.</b> (Mislim da sam čula telefon kako zvoni.)<br>
+    <b>Did you notice something moving in the bushes?</b> (Jesi li primetio da se nešto mrda u žbunju?)<br>
+    <b>Look at the birds flying south.</b> (Pogledaj ptice kako lete na jug.)</p>
+
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Pravilni i nepravilni glagoli</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Engleski, kao i mnogi germanski jezici, sadrži pravilne i nepravilne glagole. Svaki nepravilni glagol se uči napamet. U zavisnosti od pravilnosti glagoli se dijele na četiri grupe: pravilni, nepravilni, glagoli koji imaju više oblika i nepotpuni glagoli.<br>
+
+    Pravilni glagoli grade prošlo vreme i prošli particip tako što se im dodaje nastavak –d ili –ed, kao što je open, opened, opening, opened.<br>
+    
+    Nepravilni glagoli imaju sopstvene oblike za prošlo vreme i prošli particip kao što je drink, drank, drinking, drunk.<br>
+    
+    Glagoli sa više oblika formiraju prošlo vreme i prošli particip na dva ili više načina, dakle mogu biti pravilni i nepravilni u isto vreme, kao što je thrive, thrived ili throve, thrived ili thriven.<br>
+    
+    Nepotpuni glagoli poput beware, ought, quoth nemaju participe i imaju samo nekoliko oblika ili vremena.</p>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Funkcije pomoćnih glagola u engleskom jeziku</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Pomoćni glagoli u engleskom jeziku su be, do i have, a oni se takođe mogu koristiti i kao samostalni glagoli. Will i shall se koriste da izraze buduće vreme.<br>
+
+    U svakom od sljedećih primera ovi pomoćni glagoli imaju funkciju prostog predikata (nema dodatnih glagola koji menjaju njihovo osnovno značenje):</p>
+
+<p> <b>Tamara is a teacher.</b> (Tamara je učiteljica.)<br>
+    <b>The bowls are in the cupboard.</b> (Činije su u kredencu.)<br>
+    <b>James does this kind of thing frequently.</b> (Džon to čini često.)<br>
+    <b>My roommates and I do the laundry every week.</b> (Moji cimeri i ja peremo veš svake nedjelje.)<br>
+    <b>I can’t complete my task because he still has my notes.</b> (Ne mogu da završim moj zadatak jer su kod njega još uvek moje beleške.)<br>
+    <b>They have several kinds chocolate in the store.</b> (Oni imaju nekoliko vrsta čokolade u radnji.)</p>
+<p>Drugi glagoli koji se također smatraju pomoćnim su can, could, may, might, must, ought, should, and would. Ovi glagoli se nazivaju modalni glagoli i izražavaju potrebu, obavezu ili mogućnost:</p>
+<p> <b> Tom decided that Ana could take several days off.</b><br>
+   <b> The girl told her parents that she would finish everything if they gave her money.</b><br>
+    <b>John told Maria that she ought to have the car fixed.</b><br>
+    <b>The boss told his workers that they might get new uniforms.</b><br>
+    <b>According to the instructions, we must keep this cream in a cool and dry place.</b></p>
+
+<p>Pomoćni i glavni glagol ne stoje uvek jedan pored drugoga. Između njih se mogu naći odrečne rečce i prilozi:<br>
+<hr>
+    <b>They have not changed the figures on time.</b> (Nisu promenili cifre na vrijeme.)<br>
+    <b>The problem was never discovered.</b> (Problem nikad nije otkriven.)<br>
+    <b>He has recently decided that all workers should do those reports.</b> (On je skoro odlučio da svi radnici treba da urade te izveštaje.)<br>
+   <b> Will you walk the dog tomorrow? </b>(Hoćeš li prošetati psa sutra?)<br>
+   <b> My friend was rapidly and gracefully dancing about the stage.</b> (Moj prijatelj je brzo i graciozno plesao po pozornici.)</p>
+
+   <hr>
+   <hr>
+   <hr>
+   <center><h5 class="h">The passive voice (pasiv)</h5></center>
+   <hr>
+   <hr>
+   <hr>
+<p>Glagoli imaju dva stanja: AKTIV ili radno stanje i PASIV ili trpno stanje.<br>
+<hr>
+    Ako subjekat rečenice vrši radnju, onda je glagol u AKTIVU<br>
+    
+    Somebody cleans the office every day. (Neko čisti ovu kancelariju svakog dana.)<br>
+    <hr>
+    Ako subjekat rečenice trpi radnju, onda je glagol u PASIVU<br>
+    
+    The office is cleaned every day. (Ova kancelarija se čisti svakog dana.)</p>
+<p>Objekat aktivne rečenice (the office) postaje subjekat pasivne rečenice i dolazi na početak rečenice, a glavni glagol (clean) se stavlja u pasiv (is cleaned).<br>
+
+    Pasiv se gradi od odgovarajućeg oblika glagola to be i past participle-a (prošlog participa) glavnog glagola.<br>
+    
+    Tako će u sadašnjem vremenu pasiv glagola clean glasiti:</p>
+<hr>
+<p>am cleaned, are cleaned, is cleaned (u zavisnosti od lica)<br>
+    a u prošlom vremenu was cleaned, were cleaned (u zavisnosti od lica)</p>
+<p>Rečenica koju smo imali u sadašnjem vremenu, ovako bi izgledala u prošlom:<br>
+<hr>
+   <b> Somebody cleaned the office yesterday. </b>(Neko je juče očistio ovu kancelariju.) (aktiv)<br>
+   <b> The office was cleaned yesterday.</b> (Ova kancelarija je očišćena juče.) (pasiv)</p>
+
+<p>Primeri pasiva:<br>
+<hr>
+    <b>Butter is made from milk.</b> (Buter se pravi od mleka)<br>
+    <b>Oranges are imported into Britain. </b>(Pomorandže se uvoze u Britaniju.)<br>
+   <b> How often are these rooms cleaned?</b> (Koliko često se čiste ove prostorije?)<br>
+    <b>This house was built 100 years ago.</b> (Ova kuća je sagrađena pre 100 godina.)<br>
+    <b>These houses were built 100 years ago. </b>(Ove kuće su sagrađene pre 100 godina.)<br>
+    <b>When was the telephone invented?</b> (Kada je izmišljen telefon?)</p>
+<hr>
+<p>Upotreba:<br>
+<hr>
+    Pasiv se koristi u ovim situacijama:
+    
+    1. Kada ne znamo ko je izvršio radnju
+    
+    The house was built in the 19th century. (Kuća je izgrađena u 19. veku.)
+    <hr>
+    2. Kada izvršilac radnje nije bitan
+    
+    Wine is served during the lunch. (Vino se služi tokom ručka.)
+    <hr>
+    3. Ako želimo da označimo izvršioca radnje, koristimo predlog by.
+    
+    These cakes were made by my mother. (Ove kolače je napravila moja majka.)
+    <hr>
+    Napomena: Samo prijelazni glagoli (glagoli koji imaju objekat iza sebe) mogu da se stave u pasiv.</p>
+
+
+    <hr>
+    <hr >
+     <hr class="hr1">
+     <hr>
+     <hr>
+     <hr>
+     <a name="adjectives"></a>
+     <h5 class="Podnaslov">ADJECTIVES – PRIDEVI</h5> 
+     <hr>
+     <hr>
+     <hr>
+     <center><h5 class="h">Posvojni pridevi (Possessive Adjectives)</h5></center>
+     <hr>
+     <hr>
+     <hr>
+<p>Posvojni pridevi određuju imenice (my sister, his book, their house). Prisvojni pridevi imaju sledeće oblike:</p>
+<table>
+    <tr>
+   
+      <th>Osobna zamjenica</th>
+      <th>Posvojni pridjev</th>
+    </tr>
+    <tr>
+      
+      <td>I – ja</td>
+      <td>my – moj</td>
+    </tr>
+    <tr>
+      
+      <td>you – ti</td>
+      <td>your – tvoj</td>
+    </tr>
+    <tr>
+      
+      <td>he – on</td>
+      <td>his – njegov</td>
+    </tr>
+    <tr>
+      
+        <td>she – ona</td>
+        <td>her – njen</td>
+      </tr>
+
+      <tr>
+      
+          <td>it – ono</td>
+          <td>its – njegovo</td>
+        </tr>
+
+        <tr>
+      
+            <td>we - mi</td>
+            <td>our – naše</td>
+          </tr>
+          <tr>
+      
+              <td>you – vi</td>
+              <td>your – vaše</td>
+            </tr>
+            <tr>
+      
+                <td>they – oni</td>
+                <td>their – njihovo</td>
+              </tr>
+  </table>
+
+  <hr>
+  <p>Primjeri:<br>
+  <hr>
+      This is my house. (Ovo je moja kuća.)<br>
+      His mother is very nice. (Njegova majka je veoma fina.)<br>
+      Her name is Jelena. (Njeno ime je Jelena.)<br>
+      What is your name? (Koje je tvoje ime / Kako se zoveš?)<br>
+      What is his job? (Koje je njegovo zanimanje?)</p>
+      <hr>
+      <hr>
+      <hr>
+      <center><h5 class="h">Poređenje prideva (Comparisons of Adjectives)</h5></center>
+      <hr>
+      <hr>
+      <hr>
+<p>Kod jednosložnih i nekih dvosložnih pridjeva komparativ se gradi dodavanjem sufiksa –er, a superlativ dodatkom sufiksa –est:<br>
+<hr>
+    <b>old – older – oldest </b>(star, stariji, najstariji)<br>
+    <b>smart – smarter – smartest </b>(pametan, pametniji, najpametniji)</p>
+    <hr>
+<p>Pridevi koji se završavaju na –y ispred kojeg se nalazi suglasnik, menjaju –y u –i:<br>
+<hr>
+    <b>friendly – friendlier – friendliest</b> (ljubazan, ljubazniji, najljubazniji)</p>
+<hr>
+<p>Jednosložni pridevi sa kratkim samoglasnikom udvajaju poslednji suglasnik u poređenju:<br>
+<hr>
+    <b>big – bigger – biggest </b>(velik, veći, najveći)<br>
+    <b>thin – thinner – thinnest</b> (mršav, mršaviji, najmršaviji)</p>
+<hr>
+<p>Višesložni pridjevi se porede na sljedeći način: komparativ se gradi dodatkom priloga more a superlativ dodatkom priloga most:<br>
+<hr>
+    <b>beautiful – more beautiful – most beautiful </b>(lijep, ljepši, najljepši)<br>
+    <b>popular – more popular – most popular</b> (popularan, popularniji, najpopularniji)</p>
+<hr>
+<p>Ovakvo poređenje se još naziva i složeno poređenje. U okviru složenog poređenja možemo razlikovati pozitivno i negativno poređenje</p>
+<hr>
+<p>Pozitivno poređenje govori o tome da jedan subjekat u većoj mjeri sadrži navedenu osobinu:<br>
+<hr>
+    <b>She is more intelligent than her sister. </b>(Ona je inteligentnija od njene sestre.)<br>
+    <hr>
+    Negativno poređenje govori o tome da jedan subjekat u manjoj meri sadrži navedenu osobinu:<br>
+    <hr>
+   <b> Belgrade is a less dangerous place than New York. </b>(Beograd je manje opasno mjesto od Njujorka.)</p>
+<p>Poređenje po jednakosti znači da dva subjekta u istoj mjeri posjeduju neku osobinu. U tu svrhu koristimo as … as:<br>
+<hr>
+   <b> Mary is as beautiful as her sister.</b> (Mary je lijepa kao njena sestra.)<br>
+    <b>He is as smart as I am.</b> (On je pametan kao ja.)</p>
+    <hr>
+    <p>Neki pridjevi se porede nepravilno:<br>
+     <hr>
+        <b>good – better – best</b> (dobar, bolji, najbolji)<br>
+        <b>bad – worse – worst </b>(loš, gori, najgori)<br>
+        <b>little – less – least</b> (malo, manje, najmanje)<br>
+        <b>much – more – most </b>(mnogo, više, najviše)<br>
+        <b>many – more – most </b>(mnogo, više, najviše)</p>
+
+
+        
+        <hr>
+        <hr >
+         <hr class="hr1">
+         <hr>
+         <hr>
+         <hr>
+         <a name="prepositions"></a>
+         <h5 class="Podnaslov">PREPOSITIONS – PRIJEDLOZI</h5> 
+         <hr>
+         <hr>
+         <hr>
+
+         <p>Prijedlozi opisuju vezu između riječi u rečenici. Kada bi prijedlog stajao samostalno, njegovo značenje bi bilo teško odrediti riječima. 
+            Prijedlozi se gotovo uvijek koriste u kombinaciji sa drugim riječima.
+              Kao prijedlog za mjesto, at služi da odredi mjesto gde se nešto dešava:</p>
+              <p> <b>at</b> the football match (na fudbalskoj utakmici)<br>
+                  <b>at</b> school (u školi)<br>
+                  <b>at</b> the party (na zabavi)<br>
+                  <b>at</b> work (na poslu)</p>
+          
+          <p>Kao prijedlog za mjesto, in se koristi za gradove i države:<br>
+          
+              <b>in</b> London (u Londonu)<br>
+              <b>in</b> France (u Francuskoj)</p>
+<p>Razlika u upotrebi at i in za mjesto je u tome što in inzistira na unutrašnjosti zgrade, a at može značiti unutra, neposredno ispred, neposredno iza…</p>
+<p>I’ll meet you <b>at</b> the theatre. (Naći ćemo se u pozorištu / kod pozorišta)<br>
+    I’ll meet you <b>in</b> the theatre. (Naći ćemo se u pozorištu – u unutrašnjosti zgrade)</p>
+<p>Kada se koristi za mjesto, <b>on</b> znači na:</p>
+<p><b>on</b> the chair (na stolici)<br>
+    <b>on</b> the roof (na krovu)<br>
+    <b>on</b> the floor (na pod)<br>
+    <b>on</b> the wall (na zidu</p>
+<p>Prijedlog to se koristi da označi pravac kretanja. Koristi se uz glagole kretanja:<br>
+
+    go <b>to</b> work (ići na posao)
+    run <b>to</b> the office (trčati do kancelarije)
+    swim <b>to</b> the boat (plivati do čamca)</p>
+<p>Ako imenici home prethodi glagol kretanja, ispred nje se ne koristi predlog:<br>
+
+    I’m tired. I’m going home. (Umoran sam, idem kući.) <br>
+    Did you walk home? (Da li si hodao do kuće.)</p>
+<p>Ako imenici home prethode be, stay, do something, ispred nje dolazi at:<br>
+
+    I’m staying <b>at</b> home this evening. (Ostajem kod kuće ove večeri.)
+    When I am <b>at</b> home, I usually watch TV. (Kada sam kod kuće, obično gledam TV.)
+    I like working <b>at</b> home. (Volim da radim kod kuće.)</p>
+    <p>Kada idemo od jednog do drugog mesta koristimo from … to:<br>
+
+        We travel from Novi Sad <b>to</b> Budapest. (Mi putujemo od Novog Sada do Budimpešte.)</p>
+
+<p>Kada se govori o prevoznom sredstvu koristi se predlog by:<br>
+
+    <b>by</b> bus (autobusom)<br>
+    <b>by</b> car (autom)<br>
+    <b>by</b> plane (avionom)<br>
+    <hr>
+    Ali se kaže:<br>
+    
+    <b>on</b> foot (peške)</p>
+
+    <hr>
+    <hr >
+     <hr class="hr1">
+     <hr>
+     <hr>
+     <hr>
+     <a name="adverbs"></a>
+     <h5 class="Podnaslov">ADVERBS – PRILOZI</h5> 
+     <hr>
+     <hr>
+     <hr>
+<p>Prilozi su riječi koje bliže određuju glagole, pridjeve i druge priloge, tj. oni objašnjavaju kako se nešto radi, odnosno na koji način se obavlja neka radnja.<br>
+
+    Postoje razne vrste priloga. Naime, najveći broj priloga se gradi tako što se na osnovu pridjeva doda nastavak –ly:</p>
+<p>quick + ly = <b>quickly</b> (brzo)<br>
+    slow + ly = <b>slowly</b> (sporo)<br>
+    clear + ly = <b>clearly</b> (jasno)<br>
+    kind + ly = <b>kindly</b> (ljubazno)<br>
+    careful + ly = <b>carefully</b> (pažljivo)<br>
+    beautiful + ly = <b>beautifully</b> (lepo)</p>
+<hr>
+<p>Pridjevi koji završavaju na –y, mijenjaju –y u –i</p>
+
+  <p> easy + ly = <b>easily</b> (lako)
+    happy + ly = <b>happily</b> (sretno)
+    angry + ly = <b>angrily</b> (ljuto)</p>
+<p>Pridevi koji završavaju na –le, gube krajnje –e, i dodaje im se samo –y:</p>
+
+  <p>  gentle + ly = <b>gently</b> (nežno)
+    comfortable + ly = <b>comfortably</b> (udobno)</p>
+
+<p>Neki prilozi imaju potpuno isti oblik kao pridjevi. Takvi su sljedeći prilozi:<br>
+
+    fast (brzo), hard (teško), late (kasno), early (rano).<br>
+    Prilog koji odgvara pridjevu good (dobar) je nepravilan i glasi well.</p>
+<p>Primjeri:<br>
+<hr>
+    She sang <b>beautifully</b> last night. (Ona je sinoć lijepo pjevala.)<br>
+    He speaks English <b>well</b>. (On dobro govori engleski.)<br>
+    They ran <b>quickly</b>. (Oni su brzo trčali.)<br>
+    Please, talk <b>slowly</b>. (Molim vas, govorite sporo.)<br>
+    He always drives very <b>fast</b>. (On uvek vozi vrlo brzo.)</p>
+<p>Postoje četiri vrste priloga i to su: za vrijeme, za mjesto, način i stupanj:<br>
+<hr>
+    Primjeri priloga za vrijeme: usually (obično), often (često), tomorrow (sutra), forever (zauvijek), never (nikad), afterwards (poslije)…<br>
+    Primjeri priloga za stupanj: too (previše), greatly (uveliko), enough (dovoljno), exactly (točno)…<br>
+    Primjeri priloga za mjesto: firstly (kao prvo), away (dalje), down (dolje), around (oko), everywhere (svuda)…<br>
+    Primjeri priloga za način: as (poput), well (dobro), quickly (brzo), however (međutim), particularly (posebno)…</p>
+
+<p>Prilozi nemaju modifikatore. Samo nekoliko imaju porđenje koje se vrši isto kao i kod pridjeva:<br>
+<hr>
+    soon – sooner – soonest
+    long – longer – longest
+    fast – faster – fastest</p>
+<p>Sljedeći prilozi imaju nepravilno poređenje:<br>
+<hr>
+    well – better – best<br>
+    badly – worse – worst<br>
+    little – less – least<br>
+    much – more – most<br>
+    far – farther – farthest<br>
+    forth – further – furthest</p>
+
+
+
+    <hr>
+    <hr >
+     <hr class="hr1">
+     <hr>
+     <hr>
+     <hr>
+     <a name="pronouns"></a>
+     <h5 class="Podnaslov">PRONOUNS – ZAMJENICE</h5> 
+     <hr>
+     <hr>
+     <hr>
+<p>Zamjenice su vrsta riječi koje se koriste umjesto imenice.</p>
+
+  <p>  Maria loves this film. <b>She</b> has watched <b>it</b> several times and <b>she</b> is still not bored.</p>
+<p>Zamjenice su neophodne u rečenici, međutim moguće je da se nikad ne koriste u rečenici. Mnoge rečenice bi zvučale čudno bez zamjenica:</p>
+
+  <p>  Clarisa is creating Clarisa’s best work and Clarisa is thinking what Clarisa needs to do in the future.
+    Clarisa is creating <b>her</b> best work and <b>she</b> is thinking what <b>she</b> needs to do in the future.</p>
+
+<p>Upotrebu zamjenica treba izbjegavati u slučajevima kad značenje rečenice može biti nejasno:</p>
+
+   <p> Ornaments on tables make <b>it</b> look nice. (Ne znamo na šta se it odnosi.)<br>
+    The boys made frames. The girls decorated them. <b>They</b> had fun. (Ne znamo na koga se they odnosi.)</p>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Subjekatske zamjenice (Subject Pronouns)</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Subjekatske zamjenice imaju funkciju subjekta, odnosno vršioca radnje u rečenici:</p>
+<p>I (ja) – <b>I</b> know John. (Ja znam Johna.)<br>
+    you (ti) – <b>You</b> know John. (Ti znaš Johna.)<br>
+    he (on) – <b>He</b> knows John. (On zna Johna.)<br>
+    she (ona) – <b>He</b> knows John. (Ona zna Johna.)<br>
+    it (ono) – <br>It knows John. (Ono zna Johna.)<br>
+    we (mi) – <b>We</b> know John. (Mi znamo Johna.)<br>
+    you (vi) – <b>You</b> know John. (Vi znate Johna.)<br>
+    they (oni, one, ona) – <b>They</b> know John. (Oni znaju Johna.)</p>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Objekatske zamjenice (Subject Pronouns)</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Osobne zamjenice imaju i objekatski padež, i on se upotrebljava kada zamjenice imaju funkciju objekta u rečenici:</p>
+<p>me (mene) – John knows <b>me</b>. (John zna mene.)<br>
+    you (tebe) – John knows <b>you</b>. (John zna tebe.)<br>
+    him (njega) – John knows <b>him</b>. (John zna njega.)<br>
+    her (nju) – John knows <b>her</b>. (John zna nju.)<br>
+    it (to) – John knows <b>it</b>. (John zna to.)<br>
+    us (nas) – John knows <b>us</b>. (John zna nas.)<br>
+    you (vas) – John knows <b>you</b>. (John zna vas.)<br>
+    them (njih) – John knows <b>them</b>. (John zna njih.)</p>
+<p>Primjeri:<br>
+
+    I see <b>him</b> every morning. (Viđam ga svako jutro.)<br>
+    My friend often invites <b>me</b> to lunch. (Prijateljica me često poziva na ručak.)<br>
+    Her parents will send <b>her</b> to London. (Njeni roditelji će je poslati u London.)<br>
+    Michael sometimes gives <b>her</b> this book to read. (Michael joj ponekad daje da čita ovu knjigu.)<br>
+    Jane shows me <b>her</b> new bicycle every day. (Jane mi pokazuje svoj novi bicikl svakog dana.)</p>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Povratne zamenice (Reflexive pronouns)</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Povratna zamjenica u hrvatskom jeziku se izražava pomoću: sebe ili se i koristi se da se izrazi nešto što je neko sam učinio, bez ičije pomoći, utjecaja ili krivice, kao i kod povratnih glagola. 
+  Na primjer: Ja sam se posjekao (Ja sam sebe posjekao). U engleskom jeziku, one po licima glase:</p>
+
+<hr>
+<table>
+  <tr>
+ 
+    <th>Jednina (singular)</th>
+    <th>Množina (plural)</th>
+  </tr>
+  <tr>
+    
+    <td>myself</td>
+    <td>ourselves</td>
+  </tr>
+  <tr>
+    
+    <td>yourself</td>
+    <td>yourselves</td>
+  </tr>
+  <tr>
+    
+    <td>himself/herself/itself</td>
+    <td>themselves</td>
+  </tr>
+  <tr>
+</table>
+<hr>
+<p>Primjeri:<br>
+
+    The little girl dressed herself. (Dejvojčica se sama obukla.)<br>
+    Do it yourself. (Uradite to sami.)<br>
+    He’s looking at himself in the mirror. (On se gleda u ogledalu.)<br>
+    He cut himself with a knife. (Posjekao se nožem.)<br>
+    Please, help yourselves. (Poslužite se, molim vas.)<br>
+    Maria had a nice time in London. She enjoyed herself. (Maria se lepo provela u Londonu. Uživala je.)</p>
+<p>Povratnu zamjenicu koristimo i uz prijedlog by u značenju alone (sam):<br>
+
+    She went on holiday by herself. (Ona je sama išla na odmor.)<br>
+    I made it by myself. ( Ja sam to sama napravila.)</p>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Posvojne zamjenice (Possessive pronouns)</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Posvojni pridjevi se upotrebljavaju uz imenice, dok se posvojne zamjenice upotrebljavaju samostalno.</p>
+<p>Posvojni pridjevi:</p>
+<hr>
+<table>
+  <tr>
+ 
+    <th>Jednina (singular)</th>
+    <th>Množina (plural)</th>
+  </tr>
+  <tr>
+    
+    <td>my (moj)/td>
+    <td>our (naš)</td>
+  </tr>
+  <tr>
+    
+    <td>your (tvoj)</td>
+    <td>your (vaš)</td>
+  </tr>
+  <tr>
+    
+    <td>his/her/its (njegov/njen/njegov)</td>
+    <td>their (njihov)</td>
+  </tr>
+  <tr>
+</table>
+<hr>
+<p>Posvojne zamjenice:</p>
+<hr>
+<table>
+  <tr>
+ 
+    <th>Jednina (singular)</th>
+    <th>Množina (plural)</th>
+  </tr>
+  <tr>
+    
+    <td>mine (moj)/td>
+    <td>ours (naš)</td>
+  </tr>
+  <tr>
+    
+    <td>yours (tvoj)</td>
+    <td>yours (vaš)</td>
+  </tr>
+  <tr>
+    
+    <td>his/hesr/its (njegov/njen/njegov)</td>
+    <td>theirs (njihov)</td>
+  </tr>
+  <tr>
+</table>
+<hr>
+<p>Posvojni pridjevi i posvojne zamjenice se na hrvatski jezik prevode isto, ali im je upotreba u engeskom jeziku različita:<br>
+<hr>
+    Is this your book? (pridjev) (je li ovo tvoja knjiga?)<br>
+    Is this book yours? (zamjenica) (Je li ova knjiga tvoja?)<br>
+    This car is hers. (zamjenica) (Ovaj auto je njen.)<br>
+    Her car is red. (pridjev) (Njen auto je crven.)<br>
+    Your coat is black and mine is green. (your – pridjev, mine – zamjenica) (Tvoj kaput je crn, a moj je zelen.)<br>
+    Their car is old, and ours is new. (their – pridjev, ours – zamjenica) (Njihov auto je star, a naš je nov.)<br>
+    Whose coat is that? It’s mine. (Čiji je ono kaput? Moj je.)<br>
+    Whose shoes are these? They’re hers. (Čije su ove cipele? Njene su.)<br>
+    Whose car is this? It’s theirs. (Čiji je ovo auto? Njihov je.)<br>
+    Whose balls are those? They’re ours. (Čije su ono lopte? Naše su.)</p>
+
+    <hr>
+    <hr >
+     <hr class="hr1">
+     <hr>
+     <hr>
+     <hr>
+     <a name="articles"></a>
+     <h5 class="Podnaslov">ARTICLES - ČLANOVI</h5> 
+     <hr>
+     <hr>
+     <hr>
+<p>Članovi su vrsta riječi koja ne postoji u hrvatskom jeziku. Oni imaju istu funkciju kao i pridjevi – 
+  modificiraju imenicu. Ne prevode se na hrvatski jezik, osim ako to ne zahtijeva kontekst.</p>
+<p>Da bismo lakše razumjeli članove, evo primjera kako se mogu prevesti:<br>
+
+    A bird flew into my room. (Neka ptica mi je uletjela u sobu.)<br>
+    The bird was brown. (Ta ptica je bila smeđa.)<br>
+    John gave her a flower. (John joj je dao jedan cvijet.)<br>
+    The flower is very unusual. (Taj cvijet je veoma neobičan.)</p>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Neodređeni član (Indefinite Article)</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Neodređeni član (indefinite article) a/an se ispred imenica koje počinju suglasnikom čita / ə / dok se ispred imenica koje počinju samoglasnikom čita kao / ən /:<br>
+
+    a boy / ə boi /<br>
+    an egg / ən eg /</p>
+
+<p>Neodređeni član se koristi da označi lice ili stvar koje ne poznajemo ili koje po prvi put spominjemo. Neodređeni član se upotrebljava isključivo sa imenicama u jednini:</p>
+<p>There is <b>a</b> boy in the street. (Neki dječak se nalazi na ulici.)<br>
+    She put <b>an</b> apple on the table. (Stavila je jabuku na stol.)</p>
+<p>Neodređeni član se koristi ispred imenskog dijela predikata:<br>
+
+    I am <b>a</b> student. (Ja sam student.)<br>
+    The ugly duckling became <b>a</b> beautiful swan. (Ružno pače je postalo prelepi labud.)</p>
+
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Određeni član</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Određeni član (definite article) the se isped imenica koje počinju suglasnikom izgovara 
+  kao / ðə / dok se ispred imenica koje počinju samoglasnikom određeni član čita kao / ði: /:</p>
+<p>the book / ðə buk /<br>
+    the eyes / ði: аіz /</p>
+    <hr>
+<p>Određeni član se koristi za opisivanje određenih, poznatih lica i stvari:<br>
+
+    <b>The</b> man you met is my friend. (Čovjek kog si upoznao je moj prijatelj.)<br>
+    <b>The</b> book on the table is mine. (Knjiga na stolu je moja.)</p>
+    <hr>
+<p>Određeni član se koristi ispred superlativa i rednih brojeva:<br>
+
+    She is the prettiest girl in the class. (Ona je najljepša devojka u razredu.)<br>
+    The first act of the play was the best. (Prvi čin drame je bio najbolji.)
+    </p>
+<p>Određeni član se koristi da označi pojmove od kojih samo jedan postoji na svijetu:<br>
+
+    the Earth, the past, the Sun, the weather</p>
+
+<hr>
+<p>Određeni član se koristi ispred imena rijeka, mora, oceana, planina:<br>
+
+    the Sava, the Adriatic sea, the Atlantic, the Alps</p>
+<hr>
+<p>Određeni član se koristi ispred naziva država:<br>
+    the French, the Swiss
+</p>
+<hr>
+<p>Određeni član se koristi ispred imena javnih zgrada i ustanova u gradu:<br>
+
+    the Odeon cinema, the National Museum, the Modern Art Gallery</p>
+<hr>
+<p>Određeni član se koristi ispred naziva instrumenata:<br>
+
+    She plays the guitar. (Ona svira gitaru.)</p>
+
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Izostavljanje člana</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Član se ne koristi:</p>
+<p> 1. Sa imenicama u množini i nebrojivim imenicama kada govorimo općenito o nečemu:<br>
+
+    Apples are very good for your health.<br>
+    We drink coffee and tea.</p>
+<p>2. Ispred imena jezika i obroka:<br>
+
+    She speaks French. (Ona govori francuski.)<br>
+    We had lunch with John. (Ručali smo sa Johnom.)</p>
+<p>3. Ispred imena igara i sportova:<br>
+
+    Marko plays chess very well. (Marko igra šah vrlo dobro.)<br>
+    Many people like playing basketball. (Mnogi ljudi vole igrati košarku.)</p>
+
+<p>4. Ispred osobnih imena i imena gradova:<br>
+
+    I live in New York. (Ja živim u Njujorku)</p>
+<p>5. U mnogim uobičajenim izrazima, kao što su:<br>
+
+    by day (danju, po danu), at night (noću), at home (kod kuće), at work (na poslu), in bed (u krevetu), by car (kolima)</p>
+    ass="hr1">
+    <hr>
+    <hr>
+     <hr class="hr1">
+     <hr>
+     <hr>
+     <a name="conjuctions"></a>
+     <h5 class="Podnaslov">CONJUNCTIONS – VEZNICI
+      </h5> 
+     <hr>
+     <hr>
+     <hr>
+     <p>Uloga veznika je da povezuju riječi u rečenicama. U engleskom jeziku razlikujemo tri vrste veznika:<br>
+
+        Nezavisni ili koordinativni veznici (eng. coordinating conjunctions)<br>
+        Odnosni ili korelativni veznici (eng. correlative conjunctions)<br>
+        Zavisni veznici ili subjunktori (eng. subordinate conjunctions)</p>
+        <hr>
+        <hr>
+        <hr>
+        <center><h5 class="h">Nezavisni veznici</h5></center>
+        <hr>
+        <hr>
+        <hr>
+
+<p>Nezavisni veznici povezuju različite jezičke jedinice, odnosno riječi, skupove 
+  riječi i rečenice. Najčešće korištni veznici u engleskom jeziku su: and, but, or, nor, for, so, yet</p>
+<p>He works <b>and</b> he plays a piano every day.<br>
+    Ann is very pretty, <b>but</b> she is too shy.<br>
+    You can study hard for this exam <b>or</b> you can fail.<br>
+    I don’t see how. <b>Nor</b> do I.<br>
+    He is the best student in his class, <b>for</b> he has good grades.<br>
+    You have learned for the exam, <b>so</b> you will certainly pass.<br>
+    John plays basketball well, <b>yet</b> his favorite sport is badminton.</p>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Odnosni veznici</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Odnosni veznici nazivaju se još i korelativni. U engleskom jeziku koriste se kako bi se izrazili 
+  recipročni odnosi među riječima, skupovima riječi ili rečenicama. Javljaju se u šest različitih parova:
+  </p>
+<p>1. not only…but (also)<br>
+
+   <b> Not only</b> did he donate a large amount of money to the school, <b>but</b> he <b>also</b> bought them new computers.</p>
+<p>2. both…and<br>
+
+   <b> Both</b> the parent <b>and</b> the child agreed to never argue again.</p>
+
+<p>3. whether…or<br>
+
+    It will happen, <b>whether</b> you like it <b>or</b> not.</p>
+<p>4. either…or<br>
+
+    I want to buy <b>either</b> a new desktop computer <b>or</b> a laptop.</p>
+<p>5. just as…so<br>
+
+    <b>Just</b> as Europeans love soccer, <b>so</b> do the Americans love baseball.</p>
+<p>6. neither…nor<br>
+
+    The water in the shower was <b>neither</b> hot <b>nor</b> cold.</p>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Zavisni veznici</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Uloga zavisnih veznika u engleskom jeziku je da povežu zavisnu rečenicu sa glavnom:<br>
+
+    Olivia will come home <b>as soon as</b> she finishes the assignment.<br>
+    I want to go <b>wherever</b> you want to go.</p>
+<p>U zavisnosti od rečenice, zavisni veznici izražavaju različita stanja i odnose:<br>
+
+    <b>vreme</b>: after, before, since, until, as long as<br>
+    <b>mesto</b>: where, wherever, in the same place as<br>
+    <b>način</b>: as though, as if<br>
+    <b>namjera</b>: so that, in order that<br>
+    <b>ishod</b>: so, so that<br>
+    <b>uzrok i posljedica</b>: when, why, because</p>
+<p>Neki zavisni veznici u engleskom jeziku mogu nastati iz drugih vrsta riječi:<br>
+
+    <b>like</b> – zavisni veznik i predlog<br>
+    <b>since</b> – vremenski i uzročni zavisni veznik, ali i predlog i prilog</p>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Priložni veznici</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Pored navedene tri vrste veznika, postoje još jedni, priložni veznici. U engleskom jeziku oni su 
+  definirani kao “conjunctive adverbs“. Njihova uloga je da povezuju jednostavne rečenice i složene.</p>
+<p>Neki od najčešće korišćenih su: however, furthermore, therefore, likewise…</p>
+<p>Arrange your hours <b>however</b> you like.<br>
+    She was late for work today, <b>furthermore</b> she forgot to lock her front door.<br>
+    I think, <b>therefore</b> I am.<br>
+    The husband should give to his wife her conjugal rights, and <b>likewise</b> the wife to her husband.</p>
+
+<hr>
+    <hr>
+     <hr class="hr1">
+     <hr>
+     <hr>
+     <hr>
+     <button onclick="topFunction()" id="myBtn" title="Go to top">Vrati se na početak</button>
+
+
+
+</div>
+
+
+<script>
+ var textWrapper = document.querySelector('.Nauči');
+ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+ 
+ anime.timeline({loop: true})
+   .add({
+     targets: '.Nauči .letter',
+     translateX: [40,0],
+     translateZ: 0,
+     opacity: [0,1],
+     easing: "easeOutExpo",
+     duration: 1200,
+     delay: (el, i) => 500 + 30 * i
+   }).add({
+     targets: '.Nauči .letter',
+     translateX: [0,-30],
+     opacity: [1,0],
+     easing: "easeInExpo",
+     duration: 1100,
+     delay: (el, i) => 100 + 30 * i
+   });
+
+   function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+}
+
+          </script>      
+  </body>
+</html>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+  
+</html>

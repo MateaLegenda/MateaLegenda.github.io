@@ -1,0 +1,1806 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ed48931132.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <title>Nauci engleski</title>
+  <style>
+  body{background-color:rgb(0, 0, 0);}
+  body{
+      color:rgb(255, 255, 255);
+      
+}
+
+  
+    .Nauči{
+      margin-bottom: -35px;
+    }
+    .Nauči{
+      font-style: oblique
+      
+    }
+    .Nauči{
+      font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+    }
+    .Nauči .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.txt{
+      margin-right:90px;
+font-style: oblique;
+    margin-left:90px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.hr1{
+    margin-left:30px;
+  margin-right:30px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.Tenses{
+    font-style: oblique;
+    margin-left:90px;
+    margin-right:90px;
+}
+.txt{
+      margin-right:90px;
+font-style: oblique;
+    margin-left:90px;
+}
+.Podnaslov{
+ font-style: oblique;
+
+    text-decoration:underline;
+
+}
+ 
+.h{
+    text-decoration:underline;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #727070;
+}
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgb(59, 58, 58); 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 15px; 
+}
+
+#myBtn:hover {
+  background-color: rgb(184, 174, 174); 
+}
+  </style>
+  </head>
+  <body>
+      <center><h1 class="Nauči">NAUČI ENGLESKI</h1></center>
+      
+      
+   
+    <hr>
+    
+    <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Home.html">Home</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Po%C4%8Detnik.html#">Početnik</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Napredniji.html">Napredniji</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Gramatika.html">Gramatika</a>
+            <a href="https://www.e-rjecnik.net/">Rječnik</a>
+            <a href="https://engleski-jezik.com/kvizovi-i-testovi">Kvizovi</a>
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+           
+          </div>
+       
+                
+
+<hr>
+<h3 class="Tenses">Tenses - vremena</h3>
+<hr class="hr1">
+<hr>
+<div class="txt">
+<p>U engleskom jeziku postoji 9 vrsta vremena:</p>
+<b><a href="#present simple"> 1. Present Simple</a> <br></b>
+<b><a href="#present continuous"> 2. Present Continuous</a> <br></b>
+<b><a href="#present perfect continuous"> 3. Present Perfect Continuous</a> <br></b>
+ <b><a href="#present perfect simple"> 4. Present Perfect Simple</a> <br></b>
+ <b><a href="#past continuous"> 5. Past Continuous</a> <br></b>
+ <b><a href="#past simple"> 6. Past Simple</a> <br></b>
+ <b><a href="#past perfect simple"> 7. Past Perfect Simple</a> <br></b>
+ <b><a href="#future simple"> 8. Future Simple</a> <br></b>
+ <b><a href="#past perfect continuous"> 9. Past Perfect Continuous</a> <br></b>
+</p>
+
+<hr>
+<hr class="hr1">
+<hr>
+<a name="present simple"></a>
+<h5 class="Podnaslov">PRESENT SIMPLE</h5>
+<p>Simple Present Tense (Prosto sadašnje vreme) se gradi od osnovnog oblika glagola (infinitiv bez “to”).
+
+Na primjer, infinitiv sa “to” glagola raditi glasi to work a infinitiv bez “to” glasi work. 
+Za sva lica osim za treće lice jednine potvrdni oblik prostog sadašnjeg vremena glasi work. Za treće lice se dodaje –s.
+</p>
+<center><h5 class="h">Potvrdni oblik</h5></center>
+<hr>
+<hr>
+<hr>
+
+
+<table>
+  <tr>
+ 
+    <th>Jednina (singular)</th>
+    <th>Množina (plural)</th>
+  </tr>
+  <tr>
+    
+    <td>I work. (Ja radim.)</td>
+    <td>We work. (Mi radimo.)</td>
+  </tr>
+  <tr>
+    
+    <td>You work. (Ti radiš.)</td>
+    <td>You work. (Vi radite.)</td>
+  </tr>
+  <tr>
+    
+    <td>He/she/it works. (On/ona/ono radi.)</td>
+    <td>They work. (Oni rade.)</td>
+  </tr>
+  <tr>
+</table>
+<hr>
+<p>Nastavak –s u trećem licu jednine može imati različite oblike. Ukoliko se glagol završava na vokal o nastavak će glasiti –es, kao u primeru glagola go koji u 3. l. jed. glasi goes ili glagol do koji u 3. l. jed. glasi does.<br>
+
+  Ukoliko se glagol završava na –ch, –sh, –x, –ss, nastavak takođe glasi –es:</p>
+<p>He <b>teaches</b>. (teach – predavati)<br>
+  She <b>washes</b>. (wash – prati)<br>
+  He <b>kisses</b>. (kiss – ljubiti)<br>
+  She <b>fixes</b>. (fix – popravljati)</p>
+
+<p>Ako se glagol završava na –y i ukoliko je ispred njega suglasnik –y prelazi u –ie:</p>
+<p>He <b>cries</b>. (cry -plakati)<br>
+  It <b>flies</b>. (fly – letjeti)</p>
+  <p>Ako je ispred –y samoglasnik, nema promjene:<br>
+
+    She <b>plays</b>. (play – igrati)<br>
+    He <b>stays</b>. (stay – ostati)<br>
+    Izuzetak je glagol have (imati) koji u trećem licu glasi has.
+    
+    </p>
+    <hr>
+    <hr>
+    <hr>
+
+<center><h5 class="h">Upitni oblik</h5></center>
+<hr>
+<hr>
+<hr>
+<p>Upitni oblik glagola u Present Simple Tense-u se gradi od pomoćnog glagola do, odnosno does (za treće lice jednine) i osnovnog oblika glavnog glagola.<br>
+
+  Sva pitanja se u engleskom jeziku dijele na Yes/No pitanja i Wh– pitanja. Yes/No nemaju upitnu riječ i na njih se može odgovoriti sa da ili ne.
+   Wh- pitanja počinju upitnom riječju a one su: when, what, why, where, how, how much, how many…</p>
+<hr>
+<table>
+  <tr>
+ 
+    <th>Jednina (singular)</th>
+    <th>Množina (plural)</th>
+  </tr>
+  <tr>
+    
+    <td>Do I work? (Radim li ja?)</td>
+    <td>Do we work? (Radimo li mi?)</td>
+  </tr>
+  <tr>
+    
+    <td>Do you work? (Radiš li ti?)</td>
+    <td>Do you work? (Radite li vi?)</td>
+  </tr>
+  <tr>
+    
+    <td>Does he/she/it work? (Radi li on/ona/ono?)</td>
+    <td>Do they work? (Rade li oni?)</td>
+  </tr>
+  <tr>
+</table>
+
+<hr>
+<hr>
+<hr>
+
+<center><h5 class="h">Niječni oblik</h5></center>
+<hr>
+<hr>
+<hr>
+<p>Niječni oblik se gradi od niječnog oblika pomoćnog glagola do (odnosno does za treće lice jednine) u niječnom obliku i osnovnog oblika glavnog glagola.</p>
+
+<table>
+  <tr>
+ 
+    <th>Jednina (singular)</th>
+    <th>Množina (plural)</th>
+  </tr>
+  <tr>
+    
+    <td>I do not (don’t) work. (Ja ne radim.)</td>
+    <td>We do not (don’t) work. (Mi ne radimo.)</td>
+  </tr>
+  <tr>
+    
+    <td>You do not (don’t) work. (Ti ne radiš.)</td>
+    <td>You do not (don’t) work. (Vi ne radite.)</td>
+  </tr>
+  <tr>
+    
+    <td>He/she/it does not (doesn’t) work. (On/ona/ono ne radi.)</td>
+    <td>They do not (don’t) work. (Oni ne rade.)</td>
+  </tr>
+  <tr>
+</table>
+
+<hr>
+<hr>
+<hr>
+
+<center><h5 class="h">Upotreba</h5></center>
+<hr>
+<hr>
+<hr>
+<p>Sadašnje vrijeme se koristi za:<br>
+<hr>
+  1. Radnje koje se ponavljaju (navike, običaji, rutine):<br>
+  <hr>
+ <b> I get up at 6 o’clock</b>. (Ja ustajem u 6 sati.)<br>
+  <b>She wears a uniform at work</b>. (Ona nosi uniformu na poslu.)<br>
+  <b>The English drink tea at 5 o’clock in the afternoon</b>. (Englezi piju čaj u 5 sati popodne.)</p>
+<p>U ovom smislu se mogu koristiti i prilozi i fraze za učestalost (riječi koje označavaju koliko često se događa radnja).<br>
+
+  To su: always (uvijek), usually (obično), often (često), sometimes (ponekad), never (nikad), every day (svakog dana), 
+  every month (svakog mjeseca), every year (svake godine) i sl. 
+  Zatim, once a year (jedanput godišnje), twice a day (dvaput dnevno), three times a week (triput nedjeljno) i sl.</p>
+<p>Prilozi always, usually, often, sometimes, never dolaze prije glavnog glagola u potvrdnom obliku. 
+  Fraze every day, every month, twice a year… najčešće dolaze na kraju rečenice:<br>
+<hr>
+  <b>I always go to school at 8 o’clock in the morning. (Ja uvek idem u školu u 8 sati ujutru.)</b><br>
+ <b> She usually drinks tea in the evening. (Ona obično pije čaj uveče.)</b><br>
+ <b> We never eat in the living room. (Mi nikad ne jedemo u dnevnoj sobi.)</b></p>
+<p> 2. Opće istine (nešto što je uvek točno):<br>
+<hr>
+   <b> People change money in banks. (Ljudi menjaju novac u bankama.)</b><br>
+   <b> A day has 24 hours. (Dan ima 24 sata.)</b><br>
+  <b>  The Earth goes around the Sun. (Zemlja se okreće oko Sunca.)</b><br>
+   <b> The Sava flows into the Danube. (Sava se ulijeva u Dunav.)</b></p>
+<p>3. Karakteristike subjekta:<br>
+<hr>
+    <b>He speaks English very well. (On dobro govori engleski.)</b><br>
+   <b> My sister plays the piano. (Moja sestra svira klavir)</b> </p>
+   <hr>
+   <hr class="hr1">
+   <hr>
+   <a name="present continuous"></a>
+   <h5 class="Podnaslov">THE PRESENT CONTINUOUS TENSE – SADAŠNJE TRAJNO VRIJEME</h5>
+
+<p>Present Continuous Tense (Sadašnje trajno vreme) se gradi od glagola to be u Present Simple Tense-u (Sadašnjem vremenu),
+   tj. am/is/are + Present Participle (sadašnji particip) glavnog glagola.</p>
+<p>Sadašnji particip se gradi kada se na infinitiv doda nastavak –ing:<br>
+<hr>
+    go – <b>going</b> <br>
+    sleep – <b>sleeping</b> <br>
+    work – <b>working</b></p>
+<p>Ako se glagol završava na jedan suglasnik ispred kojeg stoji kratak, naglašen samoglasnik, krajnji se suglasnik ispred –ing udvostručava:<br>
+<hr>
+    hit (udariti) – particip: <b>hitting</b> <br>
+    stop (prestati) – particip: <b>stopping</b><br>
+    permit (dopustiti) – particip: <b>permitting</b><br>
+    begin (početi) – particip: <b>beginning</b></p>
+
+<p>Krajnje –l se uvijek udvostručava:<br>
+<hr>
+    travel (putovati) – particip: travelling <br>
+    Ukoliko se glagol završava na –e, to -e se gubi i dodaje se nastavak –ing:<br>
+    <hr>
+    come – <b>coming</b> <br>
+    make – <b>making</b><br>
+    take – <b>taking</b><br>
+    Ukoliko se glagoli završavaju na –ie, nastavak -ie prelazi u y i dodaje se nastavak – ing:<br>
+    <hr>
+    die – <b>dying</b> <br>
+    lie – <b>lying</b></p>
+
+    <hr>
+<hr>
+<hr>
+
+<center><h5 class="h">Potvrdni oblik</h5></center>
+<hr>
+<hr>
+<hr>
+
+    <table>
+        <tr>
+       
+          <th>Jednina (singular)</th>
+          <th>Množina (plural)</th>
+        </tr>
+        <tr>
+          
+          <td>I am working. (Ja radim.)</td>
+          <td>We are working. (Mi radimo.)</td>
+        </tr>
+        <tr>
+          
+          <td>You are working. (Ti radiš.)</td>
+          <td>You are working. (Vi radite.)</td>
+        </tr>
+        <tr>
+          
+          <td>He/she/it is working. (On/ona/ono radi.)</td>
+          <td>They are working. (Oni rade.)</td>
+        </tr>
+        <tr>
+      </table>
+
+      <hr>
+      <hr>
+      <hr>
+      
+      <center><h5 class="h">Upitni oblik</h5></center>
+      <hr>
+      <hr>
+      <hr>
+      <table>
+          <tr>
+         
+            <th>Jednina (singular)</th>
+            <th>Množina (plural)</th>
+          </tr>
+          <tr>
+            
+            <td>Am I working? (Radim li ja?)</td>
+            <td>Are we working? (Radimo li mi?)</td>
+          </tr>
+          <tr>
+            
+            <td>Are you working? (Radiš li ti?)</td>
+            <td>Are you working? (Radite li vi?)</td>
+          </tr>
+          <tr>
+            
+            <td>Is he/she/it working? (Radi li on/ona/ono?)</td>
+            <td>Are they working? (Rade li oni?)</td>
+          </tr>
+          <tr>
+        </table>
+
+
+        <hr>
+        <hr>
+        <hr>
+        
+        <center><h5 class="h">Niječni oblik</h5></center>
+        <hr>
+        <hr>
+        <hr>
+<p>Niječni oblik Present Continuous Tense-a (Sadašnjeg trajnog vremena) se gradi od niječnog oblika pomoćnog 
+  glagola to be u sadašnjem vremenu i Present Participle-a (sadašnjeg participa) glavnog glagola.</p>
+
+  <table>
+      <tr>
+     
+        <th>Jednina (singular)</th>
+        <th>Množina (plural)</th>
+      </tr>
+      <tr>
+        
+        <td>I am not (I’m not) working. (Ja ne radim.)</td>
+        <td>We are not (aren’t) working. (Mi ne radimo.)</td>
+      </tr>
+      <tr>
+        
+        <td>You are not (aren’t) working. (Ti ne radiš.)</td>
+        <td>You are not (aren’t) working. (Vi ne radite.)</td>
+      </tr>
+      <tr>
+        
+        <td>He/she/it is not (isn’t) working. (On/ona/ono ne radi.)</td>
+        <td>They are not (aren’t) working. (Oni ne rade.)</td>
+      </tr>
+      <tr>
+    </table>
+
+    <hr>
+    <hr>
+    <hr>
+    
+    <center><h5 class="h">Upotreba</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Present Continuous Tense (Sadašnje trajno vreme) se koristi za:<br>
+<hr>
+    Radnju koja se dešava u trenutku govora, te se stoga uz njega često nalaze vremenske odrednice now (sada) i at the moment (u ovom trenutku):<br>
+    <hr>
+    <b>She is reading a book at the moment. (Ona trenutno čita knjigu.)</b><br>
+    Look!<b> She is dancing</b>. (Pogledaj! Ona pleše.)</p>
+<p>Planove vezane za budućnost:<br>
+<hr>
+    <b>I am visiting my sister next weekend. (Sledećeg vikenda ću posetiti svoju sestru.)</b><br>
+    <b>She is travelling to Italy next month. (Ona će putovati u Italliju sledećeg meseca.)</b></p>
+
+    <hr>
+    <hr class="hr1">
+    <hr>
+    <a name="present perfect continuous"></a>
+    <h5 class="Podnaslov">PRESENT PERFECT CONTINUOUS TENSE – SADAŠNJE SVRŠENO TRAJNO VRIJEME</h5>
+    <p>Present Perfect Continuous Tense (Sadašnje svršeno trajno vrijeme) se gradi od glagola “to be” u Present Perfect Tense-u (Sadašnjem svršenom vremenu), 
+      tj. have/has been i Present Participle-a (sadašnjeg participa) glavnog glagola.</p>
+      <center><h5 class="h">Niječni oblik</h5></center>
+      <hr>
+      <hr>
+      <hr>
+      <table>
+          <tr>
+         
+            <th>Jednina (singular)</th>
+            <th>Množina (plural)</th>
+          </tr>
+          <tr>
+            
+            <td>I have been working. (Ja sam radio.)</td>
+            <td>We have been working. (Mi smo radili.)</td>
+          </tr>
+          <tr>
+            
+            <td>You have been working. (Ti si radio.)</td>
+            <td>You have been working. (Vi ste radili.)</td>
+          </tr>
+          <tr>
+            
+            <td>He/she/it has been working. (On/ona/ono je radio/radila/radilo.)</td>
+            <td>They have been working. (Oni su radili.)</td>
+          </tr>
+          <tr>
+        </table>
+        <hr>
+        <hr>
+        <hr>
+        <center><h5 class="h">Upitni oblik</h5></center>
+        <hr>
+        <hr>
+        <hr>
+        <p>Upitni oblik glagola u Present Perfect Continuous Tense-u se gradi kao upitni oblik Present Perfect Simple 
+          Tense-a tj. inverzijom (u odnosu na potvrdni oblik) pomoćnog glagola “to have” i lične zamenice.</p>
+          <hr>
+          <p><b>Yes/No pitanja:</b></p>
+        <table>
+            <tr>
+           
+              <th>Jednina (singular)</th>
+              <th>Množina (plural)</th>
+            </tr>
+            <tr>
+              
+              <td>Have I been working? (Jesam li ja radio?)</td>
+              <td>Have we been working? (Jesmo li mi radili?)</td>
+            </tr>
+            <tr>
+              
+              <td>Have you been working? (Jesi li si ti radio?)</td>
+              <td>Have you been working? (Jeste li vi radili?)</td>
+            </tr>
+            <tr>
+              
+              <td>Has he/she/it been working? (Je li on/ona/ono radio/radila/radilo?)</td>
+              <td>Have they been working? (Jesu li oni radili?)</td>
+            </tr>
+            <tr>
+          </table>
+          <hr>
+<p><b>Na Yes/No pitanja se odgovara kratkim odgovorima (Short answers) na sljedeći način:</b></p>
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Have I been working? – Yes, I have. / No, I haven’t.</td>
+      <td>Have we been working? – Yes, we have. / No, we haven’t.</td>
+    </tr>
+    <tr>
+      
+      <td>Have you been working? – Yes you have. / No, you haven’t.</td>
+      <td>Have you been working? – Yes, you have. / No, you haven’t.</td>
+    </tr>
+    <tr>
+      
+      <td>Has he/she/it been working? – Yes, he/she/it has. / No, he/she/it hasn’t.</td>
+      <td>Have they been working? – Yes, they have. / No, they haven’t.</td>
+    </tr>
+    <tr>
+  </table>
+<hr>
+<p><b>Wh- pitanja:</b></p>
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Where have I been working? (Gde sam ja radio?)</td>
+      <td>Where have we been working? (Gde smo mi radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Where have you been working? (Gde si ti radio?)</td>
+      <td>Where have you been working? (Gde ste vi radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Where has he/she/it been working? (Gde je on/ona/ono radio/radila/radilo?)</td>
+      <td>Where have they been working? (Gde su oni radili?)</td>
+    </tr>
+    <tr>
+  </table>
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Niječni oblik</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Niječni oblik se gradi od odričnog oblika glagola be (u Present Perfect Simple Tense-u) i Past Participle-a glavnog glagola.</p>
+<hr>
+
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>I have not (haven’t) been working. (Ja nisam radio.)</td>
+      <td>We have not (haven’t) been working. (Mi nismo radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>You have not (haven’t) been working. (Ti nisi radio.)</td>
+      <td>You have not (haven’t) been working. (Vi niste radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>He/She/It has not (hasn’t) been working. (On/Ona/Ono nije radio/radila/radio.)</td>
+      <td>They have not (haven’t) been working. (Oni nisu radili.)</td>
+    </tr>
+    <tr>
+  </table>
+
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Upotreba</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Present Perfect Continuous Tense se koristi za:<br>
+<hr>
+    1. Radnju koja je započeta u prošlosti, još uvek traje i može se nastaviti u budućnosti:<br>
+    
+    <b>She has been learning English for three years. (Ona uči engleski već tri godine.)</b></p>
+<p>U ovom kontekstu koristimo priloge for i since. For označava ukupan vremenski period trajanja radnje: <br>
+    <hr>
+    <b>I have been swimming for an hour.</b> (Plivam već sat vremena.)</p>
+<p>Since označava početak dešavanja radnje:<br>
+<hr>
+    <b>I have been living here since 1998.</b> (Živim ovde od 1998.)</p>
+
+<p>2. Radnju koja se do skoro dešavala i ostavila jasne posledice u sadašnjosti:<br>
+<hr>
+    <b>It has been raining. The ground is still wet.</b> (Padala je kiša. Zemlja je još mokra.)</p>
+<p>Napomena: Kao što se iz prethodnih primjera može vidjeti, Present Perfect Continuous Tense se može prevesti i sadašnjim vremenom, u zavisnosti od konteksta.</p>
+
+<hr>
+<hr class="hr1">
+<hr>
+
+<a name="present perfect simple"></a>
+<h5 class="Podnaslov">PRESENT PERFECT SIMPLE – SADAŠNJE SVRŠENO VREME</h5>
+<p>Present Perfect Tense (Sadašnje svršeno vreme) se gradi od glagola “to have” u Present Simple Tense-u (Prostom sadašnjem vremenu), tj. have/has i Past Participle-a (prošlog participa) glavnog glagola.<br>
+
+    Prošli particip se kod pravilnih glagola gradi kada se na infinitiv doda nastavak –ed. Kod nepravilnih glagola prošli particip ima drugačiji oblik (tzv. treća kolona):<br>
+    <hr>
+    play – <b>played</b> <br>
+    work – <b>worked</b><br>
+    sleep – <b>slept</b></p>
+
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Potvrdni oblik</h5></center>
+    <hr>
+    <hr>
+    <hr>
+    <table>
+        <tr>
+       
+          <th>Jednina (singular)</th>
+          <th>Množina (plural)</th>
+        </tr>
+        <tr>
+          
+          <td>I have (I’ve) worked. (Ja sam radio.)</td>
+          <td>We have (We’ve) worked. (Mi smo radili.)</td>
+        </tr>
+        <tr>
+          
+          <td>You have (You’ve) worked. (Ti si radio.)</td>
+          <td>You have (You’ve) worked. (Vi ste radili.)</td>
+        </tr>
+        <tr>
+          
+          <td>He/she/it has (He’s/She’s/It’s) worked. (On/ona/ono je radio/radila/radilo.)</td>
+          <td>They have (They’ve) worked. (Oni su radili.)</td>
+        </tr>
+        <tr>
+      </table>
+      <hr>
+<p>Promjena sa nepravilnim glagolom:</p>
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>I have (I’ve) slept. (Ja sam spavao.)</td>
+      <td>We have (We’ve) slept. (Mi smo spavali.)</td>
+    </tr>
+    <tr>
+      
+      <td>You have (You’ve) slept. (Ti si spavao.)</td>
+      <td>You have (You’ve) slept. (Vi ste spavali.)</td>
+    </tr>
+    <tr>
+      
+      <td>He/she/it has (He’s/She’s/It’s) slept. (On/ona/ono je spavao/spavala/spavalo.)</td>
+      <td>They have (They’ve) slept. (Oni su spavali.)</td>
+    </tr>
+    <tr>
+  </table>
+
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Upitni oblik</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Upitni oblik glagola u Present Perfect Tense-u (Sadašnjem svršenom vremenu) se gradi inverzijom (u odnosu na potvrdni oblik) pomoćnog glagola to have (u sadašnjem vremenu) i osobne zamjenice.<br>
+
+    Yes/No pitanja:<br></p>
+<hr>
+
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Have I worked? (Jesam li ja radio?)</td>
+      <td>Have we worked? (Jesmo li mi radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Have you worked? (Jesi li ti radio?)</td>
+      <td>Have you worked? (Jeste li vi radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Has he/she/it worked? (Je li on/ona/ono radio/radila/radilo?)</td>
+      <td>Have they worked? (Jesu li oni radili?)</td>
+    </tr>
+    <tr>
+  </table>
+
+
+
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Niječni oblik</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Niječni oblik se gradi od niječnog obika glagola have (odnosno has za treće lice jednine) i Past Participle-a glavnog glagola.</p>
+
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>I have not (haven`t) worked. (Ja nisam radio.)</td>
+      <td>We have not (haven`t) worked. (Mi nismo radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>You have not (haven`t) worked. (Ti ne radiš.)</td>
+      <td>You have not (haven`t) worked. (Vi niste radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>He/she/it has not (hasn`t) worked. (On/ona/ono nije radio/radila/radilo.)</td>
+      <td>They have not (haven`t) worked. (Oni nisu radili.)</td>
+    </tr>
+    <tr>
+  </table>
+
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Upotreba</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Present Perfect Tense (Sadašnje svršeno vreme) se koristi za:<br>
+
+    Radnju koja je upravo završena, te se stoga uz njega često nalazi vremenska odrednica just (upravo). Ovaj prilog se nalazi između glagola to have i participa prošlog:</p>
+
+<p><b>She has just gone out.</b> (Ona je upravo izašla.)</p>
+<p>Radnju koja se desila u prošlosti u neko neodređeno vreme:<br>
+<hr>
+   <b> I have travelled to America.</b><br> (Putovao sam u Ameriku.)<br>
+    Prošlu radnju koja ima vidljive rezultate (posledice) u sadašnjosti:<br>
+    <hr>
+   <b> The lift has broken down. We have to use the stairs.</b> (Lift se pokvario. Moramo ići stepenicama.)<br>
+<b>  I have washed the car. It looks lovely.</b> (Oprao sam auto. Izgleda odlično.)</p>
+
+<hr>
+<p>Za radnju koja kazuje neko životno iskustvo subjekta. U ovom značenju često se javljaju i prilozi ever (ikada) i never (nikad), koji se nalaze između glagola to have i participa prošlog:<br>
+<hr>
+   <b> He has never eaten Chinese food.</b> (On nikada nije jeo kinesku hranu.)<br>
+    <b>Have you ever been to France?</b> (Da li si ikada bio u Francuskoj?)</p>
+
+<p>Za radnju koja se dogodila ranije nego što je očekivano. U tom smislu se upotrebljava prilog already (već) koji se nalazi između glagola to have i participa prošlog:<br>
+
+    <b>Jane: Tom, don’t forget to post the letter.</b> (Jane: Tome, nemoj zaboraviti poslati pismo.)<br>
+    <b>Tom: I’ve already posted it.</b> (Tom: Ja sam ga već poslao.)</p>
+
+<p>Za očekivanu radnju. U tom smislu koristimo riječ yet, koja se nekada ni ne prevodi, ali ima značenje do sad, do ovog trenutka, još uvijek. Ona se nalazi na kraju rečenice, i koristi se samo u niječnim i upitnim rečenicama:<br>
+<hr>
+    <b>Has it stopped raining yet?</b> (Da li je kiša prestala da pada?)<br>
+  <b>  I haven’t done my homework yet.</b> (Još uvek nisam uradio svoj domaći zadatak.)</p>
+
+
+
+  <hr>
+  <hr class="hr1">
+  <hr>
+  
+  <a name="past continuous"></a>
+  <h5 class="Podnaslov">PAST CONTINUOUS TENSE – PROŠLO TRAJNO VRIJEME</h5>
+<p>Past Continuous Tense (Prošlo trajno vrijeme) se gradi od glagola “to be” u Past Simple Tense-u (Prošlom vremenu), tj. was/were i Present Participle-a (sadašnjeg participa) glavnog glagola.</p>
+
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>I was working. (Ja sam radio.)</td>
+      <td>We were working. (Mi smo radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>You were working. (Ti si radio.)</td>
+      <td>You were working. (Vi ste radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>He/she/it was working. (On/ona/ono je radio/radila/radilo.)</td>
+      <td>They were working. (Oni su radili.)</td>
+    </tr>
+    <tr>
+  </table>
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Upitni oblik</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Upitni oblik glagola u Past Continuous Tense-u (Prošlom trajnom vremenu) se gradi inverzijom (u odnosu na potvrdni oblik) pomoćnog glagola to be (u prošlom vremenu) i osobne zamjenice.<br>
+<hr>
+    Yes/No pitanja:</p>
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Was I working? (Da li sam ja radio?)</td>
+      <td>Were we working? (Da li smo mi radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Were you working? (Da li si ti radio?)</td>
+      <td>Were you working? (Da li ste vi radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Was he/she/it working? (Da li je on/ona/ono radio/radila/radilo?)</td>
+      <td>Were they working? (Da li su oni radili?)</td>
+    </tr>
+    <tr>
+  </table>
+<hr>
+<p>Na Yes/No pitanja se odgovara kratkim odgovorima (Short answers) na sljedeći način:</p>
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Was I working? – Yes, I was. / No, I wasn’t.</td>
+      <td>Were we working? – Yes, we were. / No, we weren’t.</td>
+    </tr>
+    <tr>
+      
+      <td>Were you working? – Yes, you were. / No, you weren’t.</td>
+      <td>Were you working? – Yes you were. / No, you weren’t.</td>
+    </tr>
+    <tr>
+      
+      <td>Was he/she/it working? – Yes, he/she/it was. / No, he/she/it wasn’t.</td>
+      <td>Were they working? – Yes, they were. / No, they weren’t.</td>
+    </tr>
+    <tr>
+  </table>
+<hr>
+<p>Wh- pitanja:</p>
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Where was I working? (Gdje sam ja radio?)</td>
+      <td>Where were we working? (Gdje smo mi radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Where were you working? (Gdje si ti radio?)</td>
+      <td>Where were you working? (Gdje ste vi radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Where was he/she/it working? (Gdje je on/ona/ono radio/radilo?)</td>
+      <td>Where were they working? (Gdje su oni radili?)</td>
+    </tr>
+    <tr>
+  </table>
+
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Niječni oblik</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Niječni oblik Past Continuous Tense-a (Prošlog trajnog vremena) se gradi od niječnog oblika pomoćnog glagola to be u 
+  prošlom vremenu i Present Participle-a (sadašnjeg participa) glavnog glagola.</p>
+
+  <table>
+  <tr>
+ 
+    <th>Jednina (singular)</th>
+    <th>Množina (plural)</th>
+  </tr>
+  <tr>
+    
+    <td>I was not (I wasn’t) working. (Ja nisam radio.)</td>
+    <td>We were not (weren’t) working. (Mi nismo radili.)</td>
+  </tr>
+  <tr>
+    
+    <td>You were not (weren’t) working. (Ti nisi radio.)</td>
+    <td>You were not (weren’t) working. (Vi niste radili.)</td>
+  </tr>
+  <tr>
+    
+    <td>He/she/it was not (wasn’t) working. (On/ona/ono nije radio/radilo.)</td>
+    <td>They were not (weren’t) working. (Oni nisu radili.)</td>
+  </tr>
+  <tr>
+</table>
+
+<hr>
+  <hr>
+  <hr>
+  <center><h5 class="h"> Upotreba </h5></center>
+  <hr>
+  <hr>
+  <hr>
+  <p>Past Continuous Tense (Prošlo trajno vreme) se koristi za:<br>
+<hr>
+      Radnju koja je u prošlosti duže vreme trajala:<br>
+      <hr>
+      <b>She was reading a book all day yesterday.</b> (Ona je ceo dan juče čitala knjigu.)</p>
+  <p>Dvije radnje koje su se u prošlom vremenu paralelno dešavale:<br>
+<hr>
+     <b> While I was watching TV, my sister was doing her homework. </b>(Dok sam ja gledao TV, moja sestra je radila svoj domaći.)</p>
+
+<p>Prošlu radnju koja je duže trajala a prekinuta je nekom drugom prošlom radnjom. Ta druga radnja se obično izražava prostim prošlim vremenom (Past simple tense):<br>
+<hr>
+<b> I was watching TV when the telephone rang. (Ja sam gledao TV kada je telefon zazvonio.)</b><br>
+   <b> When we arrived they were playing cards. (Kada smo stigli oni su igrali karte.)</b></p>
+<p>Napomena: Glagoli koji se ne koriste u Present Continuous Tense-u, ne koriste se ni u Past Continuous Tense-u.
+   Umjesto njih se obično koristi glagol u Past Simple Tense-u.</p>
+
+   <hr>
+   <hr class="hr1">
+   <hr>
+   
+   <a name="past simple"></a>
+   <h5 class="Podnaslov">PAST SIMPLE TENSE – PROSTO PROŠLO VRIJEME</h5>
+<p>Simple Past Tense (Prosto prošlo vreme) pravilnih glagola se gradi od osnovnog oblika glagola (infinitiv bez “to”) i nastavka –ed.</p>
+<hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Potvrdni oblik </h5></center>
+  <hr>
+  <hr>
+  <hr>
+
+  <table>
+      <tr>
+     
+        <th>Jednina (singular)</th>
+        <th>Množina (plural)</th>
+      </tr>
+      <tr>
+        
+        <td>I worked. (Ja sam radio.)</td>
+        <td>We worked. (Mi smo radili.)</td>
+      </tr>
+      <tr>
+        
+        <td>You worked. (Ti si radio.)</td>
+        <td>You worked. (Vi ste radili.)</td>
+      </tr>
+      <tr>
+        
+        <td>He/she/it worked. (On/ona/ono je radio/radila/radilo.)</td>
+        <td>They worked. (Oni su radili.)</td>
+      </tr>
+      <tr>
+    </table>
+<hr>
+<p>Ako se infinitiv glagola završava na –e, nastavak glasi –d:<br>
+
+   <b> He closed.</b> (close – zatvoriti)</p>
+<hr>
+<p>Ako se glagol završava na –y i ukoliko je ispred njega suglasnik, –y prelazi u –i:<br>
+
+    <b>He cried.</b> (cry – plakati)</p>
+<p>Ako je ispred –y samoglasnik, nema promene:<br>
+<hr>
+   <b> She played.</b> (play – igrati)<br>
+    <b>He stayed. (stay – ostati)</b></p>
+<p>Ukoliko se infinitiv završava na jedan suglasnik ispred koga je kratak, naglašen samoglasnik, taj krajnji suglasnik se udvostručava pred nastavkom za Simple Past Tense:<br>
+
+    plan – <b>planned</b> (planirati)<br>
+    stop – <b>stopped</b> (zaustaviti)</p>
+    <hr>
+<p>Nepravilni glagoli imaju posebne oblike za prošlo vreme i oni se uče napamet.
+
+  </p>
+
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Upitni oblik </h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Upitni oblik glagola u Simple Past Tense-u se gradi od pomoćnog glagola “do” u prošlom vremenu koji glasi “did” i osnovnog oblika glavnog glagola.<br>
+
+    Yes/No pitanja:</p>
+<hr>
+
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Did I work? (Jesam li ja radio?)</td>
+      <td>Did we work? (Jesmo li mi radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Did you work? (Jesi li ti radio?)</td>
+      <td>Did you work? (Jeste li vi radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Did he/she/it work? (Je li on/ona/ono radio/radila/radilo?)</td>
+      <td>Did they work? (Jesu li oni radili?)</td>
+    </tr>
+    <tr>
+  </table>
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Niječni oblik </h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Niječni oblik se gradi od niječnog oblika pomoćnog glagola “do” u prošlom vremenu i osnovnog oblika glavnog glagola.</p>
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>I did not (didn’t) work. (Ja nisam radio.)</td>
+      <td>We did not (didn’t) work. (Mi nismo radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>You did not (didn’t) work. (Ti nisi radio.)</td>
+      <td>You did not (didn’t) work. (Vi niste radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>He/she/it did not (didn’t) work. (On/ona/ono nije radio/radila/radilo.)</td>
+      <td>They did not (didn’t) work. (Oni nisu radili.)</td>
+    </tr>
+    <tr>
+  </table>
+<hr>
+<p>Nepravilni glagoli grade odrični oblik na isti način.</p>
+<hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Upotreba</h5></center>
+  <hr>
+  <hr>
+  <hr>
+
+<p>Prosto prošlo vreme se koristi za radnju koja je završena u prošlosti.<br>
+
+    Karakteristične vremenske odrednice uz koje se upotrebljava su:<br>
+    <hr>
+    <b>yesterday</b> – juče,<br>
+   <b> the day before yesterday</b> – prekjuče,<br>
+    <b>two years ago</b> – pre dve godine,<br>
+   <b> three hours ago</b> – pre tri sata,<br>
+   <b>last Monday</b> – prošlog ponedeljka,<br>
+    <b>last year</b> – prošle nedelje,<br>
+   <b> in 1977 – 1977.</b> i sl.</p>
+<p>Primeri:<br>
+
+   <b> I worked in a shop last year.</b>(Radio sam u prodavnici prošle godine.)<br>
+   <b> My brother finished his homework an hour ago.</b> (Moj brat je završio domaći pre sat vremena.)<br>
+    <b>Last week we decided to buy a new house.</b> (Prošle nedelje smo odlučili da kupimo novu kuću.)<br>
+   <b> Sandra closed the window a few minutes ago.</b> (Sandra je zatvorila prozor pre nekoliko minuta.)<br>
+    <b>My father built this house in 1997.</b> (Moj otac je sagradio ovu kuću 1997.-e)<br>
+    <b>The day before yesterday Marko bought a nice hat.</b> (Prekjuče je Marko kupio lep šešir.)</p>
+
+    <hr>
+    <hr class="hr1">
+    <hr>
+    
+    <a name="past perfect simple"></a>
+    <h5 class="Podnaslov">PAST PERFECT SIMPLE – DAVNO PROŠLO VRIJEME</h5>
+<p>Past Perfect Tense (Davno prošlo vrijeme) se gradi od pomoćnog glagola “to have” u Past Simple Tense-u (prošlom vremenu), tj. had i Past Participle-a (prošlog participa) glavnog glagola.
+
+  </p>
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Potvrdni oblik</h5></center>
+  <hr>
+  <hr>
+  <hr>
+
+  <table>
+      <tr>
+     
+        <th>Jednina (singular)</th>
+        <th>Množina (plural)</th>
+      </tr>
+      <tr>
+        
+        <td>I had (I’d) worked. (Ja sam bio radio.)</td>
+        <td>We had (We’d) worked. (Mi smo bili radili.)</td>
+      </tr>
+      <tr>
+        
+        <td>You had (You’d) worked. (Ti si bio radio.)</td>
+        <td>You had (You’d) worked. (Vi ste bili radili.)</td>
+      </tr>
+      <tr>
+        
+        <td>He/she/it had worked. (On/ona/ono je bio radio/radila/radilo.</td>
+        <td>They had (They’d) worked. (Oni su bili radili.)</td>
+      </tr>
+      <tr>
+    </table>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Upitni oblik</h5></center>
+    <hr>
+    <hr>
+    <hr>
+    <p>Upitni oblik glagola u Past Perfect Tense-u (Sadašnjem svršenom vremenu) se gradi inverzijom (u odnosu na potvrdni oblik) pomoćnog glagola “to have” (u prošlom vremenu) i osobne zamjenice.<br>
+<hr>
+        Yes/No pitanja:</p>
+    <table>
+        <tr>
+       
+          <th>Jednina (singular)</th>
+          <th>Množina (plural)</th>
+        </tr>
+        <tr>
+          
+          <td>Had I worked? (Jesam li ja bio radio?)</td>
+          <td>Had we worked? (Jesmo li mi bili radili?)</td>
+        </tr>
+        <tr>
+          
+          <td>Had you worked? (Jesi li ti bio radio?)</td>
+          <td>Had you worked? (Jeste li vi bili radili?)</td>
+        </tr>
+        <tr>
+          
+          <td>Had he/she/it worked? (Je li on/ona/ono radio/radila/radilo?)</td>
+          <td>Had they worked? (Jesu li oni bili radili?)</td>
+        </tr>
+        <tr>
+      </table>
+<hr>
+<p>Na Yes/No pitanja se odgovara kratkim odgovorima (Short answers) na sljedeći način:</p>
+
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Had I worked? – Yes, I had. / No, I hadn’t.</td>
+      <td>Had we worked? – Yes, we had. / No, we hadn’t.</td>
+    </tr>
+    <tr>
+      
+      <td>Had you worked? – Yes, you had. / No, you hadn’t.</td>
+      <td>Had you worked? – Yes you had. / No, we hadn’t.</td>
+    </tr>
+    <tr>
+      
+      <td>Had he/she/it worked? - Yes, he/she/it had.</td>
+      <td>Had they worked? – Yes, they had. / No, they hadn’t.</td>
+    </tr>
+    <tr>
+  </table>
+<hr>
+<p>Wh- pitanja:</p>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Where had I worked? (Gdje sam ja bio radio?)</td>
+      <td>Where had we worked? (Gdje smo mi bili radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Where had you worked? (Gdje si ti bio radio?)</td>
+      <td>Where had you worked? (Gdje ste vi bili radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Where had he/she/it worked? (Gdje je on/ona/ono radio/radila/radilo?)</td>
+      <td>Where had they worked? (Gdje su oni bili radili?)</td>
+    </tr>
+    <tr>
+  </table>
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Niječni oblik</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Odrični oblik se gradi od odričnog oblika prošlog vremena glagola “have” i Past Participle-a glavnog glagola.</p>
+
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>I had not (hadn’t) worked. (Ja nisam bio radio.)</td>
+      <td>We had not (hadn’t) worked. (Mi nismo bili radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>You had not (hadn’t) worked. (Ti nisi bio radio.)</td>
+      <td>You had not (hadn’t) worked. (Vi niste bili radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>He/she/it had not worked. (On/ona/ono nije radio/radila/radilo.)</td>
+      <td>They had not (hadn’t) worked. (Oni nisu bili radili.)</td>
+    </tr>
+    <tr>
+  </table>
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Upotreba</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>The Past Perfect Tense (Davno prošlo vreme) se upotrebljava za:<br>
+
+    Radnju koja se završila pre neke druge prošle radnje:<br>
+    <hr>
+    <b>She suddenly found that she had lost her camera.</b> (Odjednom je shvatila da je izgubila foto aparat.)</p>
+<p>The Past Perfect Tense se upotrebljava u zavisnim rečenicama uz after. Takođe se mogu pojaviti i prilozi when i because:<br>
+
+  <b>  After we had reached the top, we began to feel tired.</b> (Pošto smo se popeli na vrh počeli smo da osećamo umor.)<br>
+    <b>His friends tried to help him after he had lost all his money.</b> (Prijatelji su pokušali da mu pomognu nakon što je izgubio sav svoj novac.)<br>
+   <b> When he had finished his homework, he went to play.</b> (Kada je završio domaći, izašao je da se igra.)<br>
+  <b>  Because he’d spent so much, he had very little money.</b> (Pošto je bio potrošio toliko, imao je vrlo malo novca.)</p>
+
+  <hr>
+  <hr class="hr1">
+  <hr>
+  
+  <a name="future simple"></a>
+  <h5 class="Podnaslov">FUTURE SIMPLE TENSE – BUDUĆE VREME</h5>
+<p>Future Simple Tense (Prosto buduće vreme) se gradi od modalnog glagola “will” i osnovnog oblika glagola (infinitiv bez “to”).</p>
+<hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Potvrdni oblik</h5></center>
+  <hr>
+  <hr>
+  <hr>
+
+  <table>
+      <tr>
+     
+        <th>Jednina (singular)</th>
+        <th>Množina (plural)</th>
+      </tr>
+      <tr>
+        
+        <td>I will (I’ll) work. (Ja ću raditi.)</td>
+        <td>We will (We’ll) work. (Mi ćemo raditi.)</td>
+      </tr>
+      <tr>
+        
+        <td>You will (You’ll) work. (Ti ćeš raditi.)</td>
+        <td>You will (You’ll) work. (Vi ćete raditi.)</td>
+      </tr>
+      <tr>
+        
+        <td>He/She/It will (He’ll/She’ll/It’ll) work. (On/Ona/Ono će raditi.)</td>
+        <td>They will (They’ll) work. (Oni će raditi.)</td>
+      </tr>
+      <tr>
+    </table>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Upitni oblik</h5></center>
+    <hr>
+    <hr>
+    <hr>
+    <p>Upitni oblik glagola u Future Simple Tense-u se gradi inverzijom (u odnosu na potvrdni oblik) modalnog glagola “will” i osobne zamjenice.<br>
+<hr>
+        Yes/No pitanja:</p>
+    <table>
+        <tr>
+       
+          <th>Jednina (singular)</th>
+          <th>Množina (plural)</th>
+        </tr>
+        <tr>
+          
+          <td>Will I work? (Hoću li ja raditi?)</td>
+          <td>Will we work? (Hoćemo li) mi raditi?)</td>
+        </tr>
+        <tr>
+          
+          <td>Will you work? (Hoćeš li ti raditi?)</td>
+          <td>Will you work? (Hoćete li vi raditi?)</td>
+        </tr>
+        <tr>
+          
+          <td>Will he/she/it work? (Hoće li on/ona/ono raditi?)</td>
+          <td>Will they work? (Hoće li oni raditi?)</td>
+        </tr>
+        <tr>
+      </table>
+      <hr>
+      <hr>
+      <hr>
+      <center><h5 class="h">Upitni oblik</h5></center>
+      <hr>
+      <hr>
+      <hr>
+      <table>
+          <tr>
+         
+            <th>Jednina (singular)</th>
+            <th>Množina (plural)</th>
+          </tr>
+          <tr>
+            
+            <td>I will not (won’t) work. (Ja neću raditi.)</td>
+            <td>We will not (won’t) work. (Mi nećemo raditi.)</td>
+          </tr>
+          <tr>
+            
+            <td>You will not (won’t) work. (Ti nećeš raditi.)</td>
+            <td>You will not (won’t) work. (Vi nećete raditi.)</td>
+          </tr>
+          <tr>
+            
+            <td>He/She/It will not (won’t) work. (On/Ona/Ono neće raditi.)</td>
+            <td>They will not (won’t) work. (Oni neće raditi.)
+              </td>
+          </tr>
+          <tr>
+        </table>
+        <hr>
+        <hr>
+        <hr>
+        <center><h5 class="h">Upotreba</h5></center>
+        <hr>
+        <hr>
+        <hr>
+<p>Future Simple Tense koristi se:<br>
+
+    Da bismo govorili o radnjama koje predviđamo da će se desiti u budućnosti (future predictions):<br>
+    <hr>
+   <b> She will travel to Jamaica next year.</b> (Ona će putovati na Jamajku sledeće godine.)<br>
+    <b>Will it rain tomorrow? </b>(Hoće li padati kiša sutra?)</p>
+    <hr>
+    <hr class="hr1">
+    <hr>
+    
+    <a name="past perfect continuous"></a>
+    <h5 class="Podnaslov">PAST PERFECT CONTINUOUS TENSE – DAVNO PROŠLO TRAJNO VRIJEME</h5>
+<p>Past Perfect Continuous Tense (davno prošlo trajno vreme) se gradi od glagola “to be” u Past Perfect Tense-u i Present Participle-a (sadašnjeg participa) glavnog glagola.
+
+  </p>
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Potvrdni oblik</h5></center>
+  <hr>
+  <hr>
+  <hr>
+  <table>
+      <tr>
+     
+        <th>Jednina (singular)</th>
+        <th>Množina (plural)</th>
+      </tr>
+      <tr>
+        
+        <td>I had (I’d) been working. (Ja sam bio radio.)</td>
+        <td>We had (we’d) been working. (Mi smo bili radili.)</td>
+      </tr>
+      <tr>
+        
+        <td>You had (you’d) been working. (Ti si bio radio.)</td>
+        <td>You had (you’d) been working. (Vi ste bili radili.)</td>
+      </tr>
+      <tr>
+        
+        <td>He/she/it had been working. (On/ona/ono je bio/bila/bilo radio/radila/radio.)</td>
+        <td>They had (they’d) been working. (Oni su bili radili.)
+          </td>
+      </tr>
+      <tr>
+    </table>
+    <hr>
+    <hr>
+    <hr>
+    <center><h5 class="h">Niječni oblik</h5></center>
+    <hr>
+    <hr>
+    <hr>
+<p>Niječni oblik se gradi od niječnog oblika “have” u Past Perfect Tense-u i Present Participle-a glavnog glagola.</p>
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>I had not (hadn’t ) been working. (Ja nisam bio radio.)</td>
+      <td>We had not (hadn’t) been working. (Mi nismo bili radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>You had not (hadn’t) been working. (Ti nisi bio radio.)</td>
+      <td>You had not (hadn’t) been working. (Vi niste bili radili.)</td>
+    </tr>
+    <tr>
+      
+      <td>He/she/it had not been working. (On/ona/ono nije bio/bila/bilo radio/radila/radilo.)</td>
+      <td>They had not hadn’t) been working. (Oni nisu bili radili.)
+        </td>
+    </tr>
+    <tr>
+  </table>
+
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Upitni oblik</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>Upitni oblik glagola u Past Perfect Continuous Tense-u (davnom prošlom trajnom vremenu) se gradi upitnim oblikom glagola “to have” (u Past Perfect Simple vremenu).<br>
+<hr>
+    Yes/No pitanja:</p>
+
+    <table>
+        <tr>
+       
+          <th>Jednina (singular)</th>
+          <th>Množina (plural)</th>
+        </tr>
+        <tr>
+          
+          <td>Had I been working? (Jesam li ja bio radio?)</td>
+          <td>Had we been working? (Jesmo li mi bili radili?)</td>
+        </tr>
+        <tr>
+          
+          <td>Had you been working? (Jesi li ti bio radio?)</td>
+          <td>Had you been working? (Jeste li vi bili radili?)</td>
+        </tr>
+        <tr>
+          
+          <td>Had he/she/it been working? (Je li on/ona/ono bio/bila/bilo radio/radila/radilo?)</td>
+          <td>Had they been working? (Jesu li oni bili radili?)
+            </td>
+        </tr>
+        <tr>
+      </table>
+<hr>
+<p>Na Yes/No pitanja se odgovara kratkim odgovorima (Short answers) na sljedeći način:</p>
+<hr>
+
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Had I been working? – Yes, I had. / No, I hadn’t.</td>
+      <td>Had we been working? – Yes, we had. / No, we hadn’t.</td>
+    </tr>
+    <tr>
+      
+      <td>Had you been working? – Yes, you had. / No, you hadn’t.</td>
+      <td>Had you been working? – Yes you had. / No, you hadn’t.</td>
+    </tr>
+    <tr>
+      
+      <td>Had he/she/it been working? – Yes, he/she/it had. / No, he/she/it hadn’t.</td>
+      <td>Had they been working? – Yes, they had. / No, they hadn’t.
+        </td>
+    </tr>
+    <tr>
+  </table>
+<hr>
+<p>Wh- pitanja:</p>
+<hr>
+<table>
+    <tr>
+   
+      <th>Jednina (singular)</th>
+      <th>Množina (plural)</th>
+    </tr>
+    <tr>
+      
+      <td>Where had I been working? (Gdje sam ja bio radio?)</td>
+      <td>Where had we been working? (Gdje smo mi bili radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Where had you been working? (Gdje si ti bio radio?)</td>
+      <td>Where had you been working? (Gdje ste vi bili radili?)</td>
+    </tr>
+    <tr>
+      
+      <td>Where had he/she/it been working? (Gdje je on/ona/ono bio/bila/bilo radio/radila/radilo?)</td>
+      <td>Where had they been working? (Gdje su oni bili radili?)
+        </td>
+    </tr>
+    <tr>
+  </table>
+  <hr>
+  <hr>
+  <hr>
+  <center><h5 class="h">Upotreba</h5></center>
+  <hr>
+  <hr>
+  <hr>
+<p>The Past Perfect Continuous Tense se upotrebljava za radnju koja je trajala do nekog trenutka u prošlosti. Tako se ne naglašava da je radnja završena nego se potencira njeno trajanje. Često se uz ovo vreme koriste for i since:<br>
+<hr>
+   <b>When we came Sally had been waiting for half an hour.</b> (Kad smo mi stigli, Seli je čekala već pola sata.)<br>
+    <b>When I called on him he had been reading for a while.</b> (Kada sam ga posetio, on je čitao već neko vreme.)</p>
+    <hr>
+    <hr class="hr1">
+    <hr>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Vrati se na početak</button>
+
+
+
+
+    </div>
+<script>
+ var textWrapper = document.querySelector('.Nauči');
+ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+ 
+ anime.timeline({loop: true})
+   .add({
+     targets: '.Nauči .letter',
+     translateX: [40,0],
+     translateZ: 0,
+     opacity: [0,1],
+     easing: "easeOutExpo",
+     duration: 1200,
+     delay: (el, i) => 500 + 30 * i
+   }).add({
+     targets: '.Nauči .letter',
+     translateX: [0,-30],
+     opacity: [1,0],
+     easing: "easeInExpo",
+     duration: 1100,
+     delay: (el, i) => 100 + 30 * i
+   });
+
+   function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+}
+
+
+          </script>      
+  </body>
+</html>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+  
+</html>

@@ -1,0 +1,435 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ed48931132.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <title>Nauci engleski</title>
+  <style>
+  body{background-color:rgb(0, 0, 0);}
+  body{
+      color:rgb(255, 255, 255);
+      
+}
+
+  
+    .Nauči{
+      margin-bottom: -35px;
+    }
+    .Nauči{
+      font-style: oblique
+      
+    }
+    .Nauči{
+      font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+    }
+    .Nauči .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+div{
+    font-style: oblique;
+    margin-left:70px;
+    margin-right:40px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+.hr1{
+margin-left:30px;
+  margin-right:30px;
+  border: 1px solid rgb(255, 255, 255);
+  }
+  .hr2{
+    margin-left:150px;
+  margin-right:150px;
+  border: 1px solid rgb(255, 255, 255);
+  }
+  #myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgb(59, 58, 58); 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 15px; 
+}
+
+#myBtn:hover {
+  background-color: rgb(184, 174, 174); 
+}
+</style>
+
+
+  </style>
+  </head>
+  <body>
+      <center><h1 class="Nauči">NAUČI ENGLESKI</h1></center>
+      
+      
+   
+    <hr>
+    
+    <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Home.html">Home</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Po%C4%8Detnik.html#">Početnik</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Napredniji.html">Napredniji</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Gramatika.html">Gramatika</a>
+            <a href="https://www.e-rjecnik.net/">Rječnik</a>
+            <a href="https://engleski-jezik.com/kvizovi-i-testovi">Kvizovi</a>
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+           
+          </div>
+          <hr>
+          <hr>
+       
+         
+          <center>
+                <hr class="hr1">
+              <h4>Abeceda</h4>
+              <hr>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/FwJHZ1Zra04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <hr>
+              <hr class="hr2">
+                <h4>Lekcija 1 - Osobe</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jzuDDuVIGHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 2 - Obitelj</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pUTv9LNvO2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 3 - Upoznavanje </h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qFsN_4bf0IY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 4 - U školi</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Kp81_oNJtAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 5 - Zemlje i jezici</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oaESNvnqUPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 6 - Čitanje i pisanje</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ibphxO308bY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 7 - Brojanje</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/exgnkc8LK4g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 8 - Vrijeme</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q-PRRh8SpuU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 9 - Dani u tjednu</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PwjtjTauhJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 10 - Jučer, danas, sutra</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sasopn3Km74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 11 - Mjeseci</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CtgBJDFuiRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 12 - Pića</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BAYqMkMweW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 13 - Zanimanja</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vT6pmQ0wzFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 14 - Boje</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_165_pKSAcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 15 - Voće i živežne namirnice</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/V9o4z72x6e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 16 - Godišnja doba i vrijeme</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7ynpPX0CW7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 17 - U kući</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g6nq5QkmdBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 18 - Čišćenje kuće</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-4IaPbwyouo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 19 - U kuhinji</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8daD70SZMKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 20 - Čavrljanje 1</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sGnieLghs7Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 21 - Čavrljanje 2</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TQVgJAALw2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 22 - Čavrljanje 3 </h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9ez6blzXaXs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 23 - Učenje stranih jezika</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7BfByYambSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 24 - Sastanak</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UcxylBrZZ3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr2">
+                <h4>Lekcija 25 - U gradu</h4>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OjB1mTKtNiM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <hr>
+                <hr class="hr1">
+
+</center>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Vrati se na početak</button>
+
+
+<script>
+ var textWrapper = document.querySelector('.Nauči');
+ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+ 
+ anime.timeline({loop: true})
+   .add({
+     targets: '.Nauči .letter',
+     translateX: [40,0],
+     translateZ: 0,
+     opacity: [0,1],
+     easing: "easeOutExpo",
+     duration: 1200,
+     delay: (el, i) => 500 + 30 * i
+   }).add({
+     targets: '.Nauči .letter',
+     translateX: [0,-30],
+     opacity: [1,0],
+     easing: "easeInExpo",
+     duration: 1100,
+     delay: (el, i) => 100 + 30 * i
+   });
+
+   function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+}
+          </script>      
+  </body>
+</html>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+  
+</html>

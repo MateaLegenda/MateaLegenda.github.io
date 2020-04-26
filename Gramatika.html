@@ -1,0 +1,604 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ed48931132.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
+    <title>Nauci engleski</title>
+  <style>
+  body{background-color:rgb(0, 0, 0);}
+  body{
+      color:rgb(255, 255, 255);
+      
+}
+
+  
+    .Nauči{
+      margin-bottom: -35px;
+    }
+    .Nauči{
+      font-style: oblique
+      
+    }
+    .Nauči{
+      font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+    }
+    .Nauči .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+div{
+    font-style: oblique;
+    margin-left:70px;
+    margin-right:40px;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+.dropbtn {
+  background-color: rgb(37, 37, 37);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left:50px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2b2b2b;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-left:50px;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9e9d9d;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #9e9d9d;
+  z-index: 1;
+  margin-left:50px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-left:50px;
+}
+
+.dropdown a:hover {background-color: rgb(216, 209, 209);}
+
+.show {display: block;}
+
+.Gramatika{
+    font-style: oblique;
+    margin-left:90px;
+    margin-right:90px;
+}
+.hr1{
+margin-left:30px;
+ margin-right:30px;
+  border: 1px solid rgb(255, 255, 255); 
+  }
+  .txt{
+      margin-right:90px;
+font-style: oblique;
+    margin-left:90px;
+}
+.txt1{
+    margin-right:90px;
+font-style: oblique;
+    margin-left:90px;
+}
+.Podnaslov{
+    font-style: oblique;
+
+    text-decoration:underline;
+
+}
+.h{
+    text-decoration:underline;
+}
+.dropbtn {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left:-45px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(65, 62, 62);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3f3d3d;}
+
+.btn1 {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  margin-left:-13px;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.content a:hover {background-color: #ddd;}
+
+.btn:hover .content {display: block;}
+
+.btn:hover .btn1 {background-color: #575757;}
+
+a:link, a:visited {
+  background-color: #292929;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(102, 101, 101);
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgb(59, 58, 58); 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 15px; 
+}
+
+#myBtn:hover {
+  background-color: rgb(184, 174, 174); 
+}
+
+  </style>
+  </head>
+  <body>
+      <center><h1 class="Nauči">NAUČI ENGLESKI</h1></center>
+      
+      
+   
+    <hr>
+    
+    <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Home.html">Home</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Po%C4%8Detnik.html#">Početnik</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Napredniji.html">Napredniji</a>
+            <a href="file:///C:/Users/HP/Desktop/MATURSKI/Gramatika.html">Gramatika</a>
+            <a href="https://www.e-rjecnik.net/">Rječnik</a>
+            <a href="https://engleski-jezik.com/kvizovi-i-testovi">Kvizovi</a>
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+           
+          </div>
+       
+                
+
+<hr>
+<h3 class="Gramatika">Gramatika</h3>
+<hr class="hr1">
+<div class="txt">
+<p>Razumijevanje osnovnih gramatičkih pojmova i pravila ključno je ukoliko želite naučiti engleski jezik. Bez obzira na nivo znanja koji posjedujete tj. jeste li na početnom nivou ili 
+    se već služite engleskim jezikom, poznavanje gramatike i konstantno usavršavanje iz ove oblasti vam je i više nego potrebno.</p>
+<hr>
+    <h5 class="Podnaslov">TENSES - VREMENA U ENGLESKOM JEZIKU</h5>
+<p>Najvažniji dio gramatike engleskog jezika svakako su vremena i mnogi imaju poteškoća pri savladavanju osnovnih pravila.  
+    Pogledajte stranicu svih vremena u engleskom jeziku i usavršite svoje poznavanje gramatike engleskog jezika.</p>
+<hr>
+
+<a href="file:///C:/Users/HP/Desktop/MATURSKI/Tenses.html"  target="_blank">TENSES</a>
+<hr>
+       <hr>      
+      <hr class="hr1">
+<hr>
+      <h5 class="Podnaslov">CONDITIONAL SENTENCES - USLOVNE/POGODBENE REČENICE</h5>
+      
+     <p>Kondicionali (uslovne rečenice) su zavisne rečenice koje se uvode veznikom if (ako). U zavisnosti od toga kolika je mogućnost za ostvarenje radnje 
+        svi kondicionali se dijele na prvi, drugi i treći kondicional.</p>
+<h7 class="h">THE FIRST CONDITIONAL - PRVI KONDICIONAL</h7>
+<hr>
+<p>Prvi kondicional se još naziva i realni. Sam naziv kaže da postoji velika mogućnost za ostvarenje radnje koja se uslovljava. Kao i u svakoj složenoj rečenici, razlikujemo kondicionalnu (uslovnu) rečenicu i glavnu rečenicu.
+
+        Uslov se u prvom kondicionalu izražava u Present Simple Tense-u, dok se u glavnoj rečenici javlja Future Simple (will + infinitiv bez to).</p>
+<p> <b> If you finish your homework on time, you will get a good mark. (Ako završiš domaći zadatak na vreme, dobićeš dobru ocenu.) <br>
+      If she spends all the money, she will not go shopping. (Ako potroši sav novac, ona neće ići u kupovinu).</p></b>
+<p>Umjesto oblika will+infinitiv mogu se javiti ostali modalni glagoli sa infinitivom.</p>
+<p> <b>If you want to lose weight, you should/must eat less bread. (Ako želiš smršati, trebalo bi / moraš da jedeš manje hleba.)<br>
+         If everything is in order, you may/can leave at once. (Ako je sve u redu, možeš odmah otići.)</p></b>
+<p>U glavnoj rečenici se može desiti da se također javi Present Simple Tense. To se dešava kada govorimo o naučnim činjenicama ili drugim izvjesnim radnjama.</p>
+<p>  <b>If you heat ice it turns to water. (Ako zagrevaš led pretvoriće se u vodu.) <br>
+         If there is an economy crisis prices go up. (Ako nastane ekonomska kriza cene rastu.)</p></b>
+<p>Umjesto Present Simple Tense-a možemo upotrebiti Present Continuous Tense za sadašnju radnju ili neki plan u budućnosti.</p>
+<p> <b> If you are looking for Marko (present action) you should better look in the cafe. (Ako tražiš Marka, bolje ga potraži u kafiću.) <br>
+         If you are staying for another night (future arrangement) I`ll ask the manager to give you a better room. (Ako ćete ostati još jednu noć, pitaću upravnika da Vam da bolju sobu.)</p> </b>
+<hr>
+<hr class="hr1">
+<hr>
+<h7 class="h">THE SECOND CONDITIONAL - DRUGI KONDICIONAL</h7>
+<hr>
+<p>Drugi kondicional nosi sa sobom manju vjerojatnost da će se radnja ostvariti iako to nije potpuno nemoguće.<br>
+
+        Uslov se izražava Past Simple Tense-om, dok se u glavnoj rečenici nalazi modalni glagol would + infinitiv bez to.</p>
+
+<p><b>If I had a map, I would lend it to you. (Kad bih imala mapu, posudila bih ti je.) <br>
+        If someone stole my car, I would call the police. (Kad bi mi neko ukrao auto, pozvala bih policiju.)</b></p>
+
+<p>Prošli oblik glagola TO BE se često u drugom kondicionalu javlja samo kao WERE za sva lica.</p>
+<p><b>If I were you, I wouldn`t do that. (Da sam ja na tvom mestu, ne bih to uradila.)</b></p>
+<p>Varijacije se također mogu javiti u obliku modalnih glagola koji zamenjuju would + infinitiv u glavnoj rečenici.</p>
+<p><b>If I knew his number, I could ring him up. (Kad bih znala njegov broj, mogla bih da ga pozovem.)<br>
+        If you tried again, you might succeed. (Kad bi ponovo pokušao, možda bi uspeo.)</b></p>
+<p>Umesto Past Simple Tense -a možemo upotrijebiti Past Continuous Tense.</p>
+<p><b>If we were going by boat I`d feel much safer. (Da idemo čamcem, osećala bih se mnogo bezbednije.) <br>
+        If my car was working I could drive you to the station. (Da mi auto radi, mogla bih da te odvezem do stanice.)</b></p>
+
+        <hr>
+        <hr class="hr1">
+        <hr>
+
+<h7 class="h">THE THIRD CONDITIONAL - TREĆI KONDICIONAL</h7>
+<hr>
+<p>Treći kondicional označava zamišljenu ili potupo nerealnu situaciju. On nam daje do znanja da više ne postoji mogućnost za ostvarenje radnje.
+
+        Uslov se izražava Past Perfect Tense-om, dok se u glavnoj rečenici nalazi modalni glagol would + prošli infinitiv bez to.</p>
+<p>Prošli infinitiv (Perfect Infinitive) je oblik infinitiva koji se gradi od glagola HAVE + PAST PARTICIPLE glavnog glagola, npr. have been, have gone, have taken …</p>
+        <p><b>If I had seen him, I would have told him the news. (Da sam ga videla, rekla bih mu vesti.)<br>
+                If someone had stolen my car, I would have called the police. (Da mi je neko ukrao auto, pozvala bih policiju.)</b></p>
+
+<p>Varijacije se također mogu javiti u obliku različitih modalnih glagola koji zamjenjuju would u glavnoj rečenici.</p>
+<p><b>If he had invited me, I might have come to the party. (Da me je pozvao, možda bih i došla na zabavu.)<br>
+        If the police had come on time, they could have caught the burglar. (Da je policija došla na vreme, možda bi uhvatili provalnika.)</b></p>
+<p>U uslovnoj rečenici se također mogu javiti neke varijacije. Umesto Past Perfect Tense-a može se javiti Past Perfect Continuous Tense.</p>
+<p><b>If we had been travelling by car, the accident might not have happened at all. (Da smo putovali autom, možda do nesreće ne bi ni došlo.)</b></p>
+
+<hr>
+ <hr class="hr1">
+   <hr>
+
+<h7 class="h">PARTS OF SPEECH – VRSTE RIJEČI</h7>
+<p>U engleskom jeziku postoji 9 vrsta riječi i vrlo je bitno da ih pravilno 
+    koristite kako biste bolje razumjeli samu gramatiku engleskog jezika i bolje se izražavali prilikom govora.
+Ovdje nećemo raditi usklike (Interjections). 
+</p>
+<hr>
+<a href="file:///C:/Users/HP/Desktop/MATURSKI/Parts%20of%20speech.html"  target="_blank">PARTS OF SPEECH</a>
+
+<hr>
+<hr class="hr1">
+<hr>
+
+<h7 class="h">RELATIVE CLAUSES - ODNOSNE/RELATIVNE REČENICE</h7>
+<hr>
+<p>Odnosne rečenice se dijele na dvije grupe: Odredbene odnosne rečenice (Defining relative clauses)
+     i umetnute odnosne rečenice (Non-defining relative clauses).</p>
+     <h8>DEFINING RELATIVE CLAUSES - ODREDBENE ODNOSNE REČENICE)</h8>
+     <hr>
+     <p>Odredbena odnosna rečenica (Defining relative clause) bliže određuje imenicu ili zamenicu na koju se odnosi. 
+         Ona se ne može izostaviti jer bez nje rečenica ili nema smisao ili ga menja.</p>
+<p><b>The police have caught the thief who stole the jewels. (Policija je uhvatila lopova koji je ukrao dragulje)</b></p>
+<p><b>who stole the jewels</b> je odredbena odnosna rečenica (defining relative clause).</p>
+<p>Ove rečenice počinju odnosnim zamjenicama who, whose, whom, which, that.
+
+        Kada govorimo o ljudima, koristimo who ili that.</p>
+<p><b> I talked to the man who won the race.<br>
+        I talked to the man that won the race. (Razgovarao sam sa čovekom koji je pobedio u trci.)</b></p>
+<p>Kada govorimo o stvarima ili životinjama koristimo which ili that.</p>
+<p><b>I liked the car which my father bought. <br>
+        I liked the car that my father bought. (Svideo mi se auto koji je kupio moj otac)</b></p>
+<p>Kada odnosna zamjenica mijenja posvojnu zamjenicu (his, her, their...) koristimo whose (čiji, čija, čije)</p>
+<p><b>Marko is the boy whose parents live in our neighbourhood. (Marko je dečak čiji roditelji žive u našem kraju.)</b></p>
+<p>Odnosne zamenice who, that i which mogu biti subjekat ili objekat odnosne rečenice. Npr.u rečenici:Odnosne zamenice who, 
+    that i which mogu biti subjekat ili objekat odnosne rečenice. Npr.u rečenici:</p>
+<p><b>I talked to the man who won the race, who je subjekat</b></p>
+<p><b>That is the dog that attacked me, that je također subjekat rečenice.</b></p>
+<p><b>The letter which she sent me was nice, which je objekat.</b></p>
+<p><b>The man that I met yesterday was very kind, that je također objekat.</b></p>
+<p>Kada je odnosna zamenica objekat rečenice ona se može izostaviti.</p>
+<p><b>The man that I met yesterday was very kind = The man I met yesteday was very kind.<br>
+        The letter which she sent me was nice. = The letter she sent me was nice.</b></p>
+<p>Whom se koristi umesto who ili that kada predstavlja objekat, pa se može reći i:</p>
+<p><b>The man whom I met yesterday was very kind.</b></p>
+<p>Zamenica whom se retko koristi u govornom jeziku.
+
+        Odredbene odnosne rečenice se ne odvajaju zarezom od glavne rečenice.</p>
+
+ <hr>
+<hr>
+  <hr>
+  <h8>NON-DEFINING RELATIVE CLAUSES - UMETNUTE ODNOSNE REČENICE</h8>
+  <hr>
+<p>Umetnuta odnosna rečenica (Non-defining Relative Clause) daje dodatno obavještenje o glavnoj rečenici
+     koje nije bitno za značenje rečenice kao cjeline. Glavna rečenica bi i bez nje imala smisla.</p>
+
+<p><b>Belgrade, which is the capital of Serbia, has about 2 milion inhabitants. (Beograd, koji je glavni grad Srbije, ima oko 2 miliona stanovnika)</b></p>
+<p><b>which is the capital of Serbia</b> je umetnuta odnosna rečenica (non-defining relative clause) i odvaja se zarezima od glavne rečenice.<br>
+
+        Odnosne rečenice počinju odnosnim zamenicama who, which, whom, whose.
+        
+        U umetnutim odnosnim rečenicama za stvari i životinje, koristi se odnosna zamenica which (ali ne i that kao što je slučaj sa odredbenim odnosnim rečenicam.)</p>
+<p><b>Mary gave the book, which she had already read, to her best friend. (Meri je knjigu, koju je već bila pročitala, dala svojoj najboljoj drugarici.)</b></p>
+<p>U umetnutim odnosnim rečenicama za osobe koristimo odnosnu zamjenicu who (ali ne i that kao što je slučaj u odredbenim odnosnim rečenicama)</p>
+
+<p><b>Ivo Andric, who was born in Travnik, was a great writer. (Ivo Andrić, koji je rođen u Travniku, bio je veliki pisac.)</b></p>
+
+<p>U slučajevima kada je who objekat rečenice, umjesto njega se može koristiti whom.</p>
+<p><b>Milan, whom I saw yesterday, is today in London. (Milan, koga sam juče video, je danas u Londonu.)</b></p>
+<p>U značenju njegov (his), njen (her), njihov (their) koristimo whose.</p>
+<p><b>Madonna, whose parents were born in Italy, is a famous American singer. (Madona, čiji su roditelji rođeni u Italiji, je poznata američka pjevačica)</b></p>
+<p>Which se također može odnositi ne samo na riječ iza koje stoji već i na čitavu rečenicu.</p>
+<p><b>She gave me her watch as a present, which was very nice of her. (Dala mi je svoj sat na poklon, što je bilo vrlo lijepo od nje.)</b></p>
+<hr>
+<hr class="hr1">
+<hr>
+
+<h7 class="h">NEPRAVILNI GLAGOLI</h7>
+<hr>
+Listu nepravilnih glagola možete pronaći ovdje: <br>
+<hr>
+<a href="http://www.startsrbija.net/nepravilniglagoli.php"  target="_blank">Lista nepravilnih glagola</a>
+<hr>
+<hr class="hr1">
+<hr>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Vrati se na početak</button>
+
+    
+<script>
+ var textWrapper = document.querySelector('.Nauči');
+ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+ 
+ anime.timeline({loop: true})
+   .add({
+     targets: '.Nauči .letter',
+     translateX: [40,0],
+     translateZ: 0,
+     opacity: [0,1],
+     easing: "easeOutExpo",
+     duration: 1200,
+     delay: (el, i) => 500 + 30 * i
+   }).add({
+     targets: '.Nauči .letter',
+     translateX: [0,-30],
+     opacity: [1,0],
+     easing: "easeInExpo",
+     duration: 1100,
+     delay: (el, i) => 100 + 30 * i
+   });
+
+   function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+}
+
+
+          </script>      
+  </body>
+</html>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+  
+</html>
